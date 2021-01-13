@@ -18,7 +18,7 @@ $(function () {
     all_classes += " btn-color-" + $(element).data("code") + " btn-outline-color-" + $(element).data("code");
   });
 
-  $('li', '.social-class').mouseenter(function () {
+  $('li', '.social-class').click(function () {
 
     var icon_name = $(this).data("code");
     if ($(this).data("icon"))
@@ -27,8 +27,8 @@ $(function () {
     console.log($('.btn-color-*', '.social-sizes'));
 
     var icon = "<span class='fab fa-" + icon_name + "'></span>";
-    $('.btn-social', '.social-sizes').html(icon + "Sign in with " + $(this).data("name"));
-    $('.btn-social-icon', '.social-sizes').html(icon);
+    $('.btn-changeHTML', '.social-sizes').html(icon + "Sign in with " + $(this).data("name"));
+    $('.btn-changeHTML-icon', '.social-sizes').html(icon);
 
     var btnColor = $('button:regex(class, btn-color.*)', '.social-sizes');
     btnColor.removeClass(all_classes);

@@ -59,7 +59,7 @@
 .btn-social.btn-lg > :first-child, .btn-lg.btn-social-icon > :first-child, .btn-lg.btn-social-icon-circle > :first-child {
   line-height: 45px;
   width: 45px;
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
 .btn-social.btn-sm, .btn-sm.btn-social-icon, .btn-sm.btn-social-icon-circle {
   padding-left: 38px;
@@ -84,6 +84,7 @@
   height: 34px;
   width: 34px;
   text-align: center;
+  font-size: 1em;
   padding: 0;
 }
 .btn-social-icon > :first-child, .btn-social-icon-circle > :first-child {
@@ -93,6 +94,7 @@
 .btn-social-icon.btn-lg, .btn-lg.btn-social-icon-circle {
   height: 45px;
   width: 45px;
+  font-size: 1em;
   padding-left: 0;
   padding-right: 0;
 }
@@ -101,6 +103,7 @@
   width: 30px;
   padding-left: 0;
   padding-right: 0;
+  font-size: 1em;
 }
 
 .btn-social-icon span, .btn-social-icon-circle span, i {
@@ -246,9 +249,25 @@
 .btn-adn:before,
 .btn-outline-adn:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-adn:before,
+.btn-outline-adn:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-adn:before, .btn-lg.btn-outline-adn:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-adn:before, .btn-sm.btn-outline-adn:before {
+  font-size: 0.9em;
 }
 
 .btn-bitbucket {
@@ -390,9 +409,25 @@
 .btn-bitbucket:before,
 .btn-outline-bitbucket:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-bitbucket:before,
+.btn-outline-bitbucket:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-bitbucket:before, .btn-lg.btn-outline-bitbucket:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-bitbucket:before, .btn-sm.btn-outline-bitbucket:before {
+  font-size: 0.9em;
 }
 
 .btn-dropbox {
@@ -534,9 +569,25 @@
 .btn-dropbox:before,
 .btn-outline-dropbox:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-dropbox:before,
+.btn-outline-dropbox:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-dropbox:before, .btn-lg.btn-outline-dropbox:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-dropbox:before, .btn-sm.btn-outline-dropbox:before {
+  font-size: 0.9em;
 }
 
 .btn-facebook {
@@ -678,9 +729,25 @@
 .btn-facebook:before,
 .btn-outline-facebook:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-facebook:before,
+.btn-outline-facebook:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-facebook:before, .btn-lg.btn-outline-facebook:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-facebook:before, .btn-sm.btn-outline-facebook:before {
+  font-size: 0.9em;
 }
 
 .btn-flickr {
@@ -822,9 +889,25 @@
 .btn-flickr:before,
 .btn-outline-flickr:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-flickr:before,
+.btn-outline-flickr:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-flickr:before, .btn-lg.btn-outline-flickr:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-flickr:before, .btn-sm.btn-outline-flickr:before {
+  font-size: 0.9em;
 }
 
 .btn-foursquare {
@@ -966,9 +1049,25 @@
 .btn-foursquare:before,
 .btn-outline-foursquare:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-foursquare:before,
+.btn-outline-foursquare:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-foursquare:before, .btn-lg.btn-outline-foursquare:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-foursquare:before, .btn-sm.btn-outline-foursquare:before {
+  font-size: 0.9em;
 }
 
 .btn-github {
@@ -1110,9 +1209,25 @@
 .btn-github:before,
 .btn-outline-github:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-github:before,
+.btn-outline-github:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-github:before, .btn-lg.btn-outline-github:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-github:before, .btn-sm.btn-outline-github:before {
+  font-size: 0.9em;
 }
 
 .btn-google {
@@ -1254,9 +1369,25 @@
 .btn-google:before,
 .btn-outline-google:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-google:before,
+.btn-outline-google:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-google:before, .btn-lg.btn-outline-google:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-google:before, .btn-sm.btn-outline-google:before {
+  font-size: 0.9em;
 }
 
 .btn-instagram {
@@ -1398,9 +1529,25 @@
 .btn-instagram:before,
 .btn-outline-instagram:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-instagram:before,
+.btn-outline-instagram:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-instagram:before, .btn-lg.btn-outline-instagram:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-instagram:before, .btn-sm.btn-outline-instagram:before {
+  font-size: 0.9em;
 }
 
 .btn-linkedin {
@@ -1542,9 +1689,25 @@
 .btn-linkedin:before,
 .btn-outline-linkedin:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-linkedin:before,
+.btn-outline-linkedin:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-linkedin:before, .btn-lg.btn-outline-linkedin:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-linkedin:before, .btn-sm.btn-outline-linkedin:before {
+  font-size: 0.9em;
 }
 
 .btn-microsoft {
@@ -1686,9 +1849,25 @@
 .btn-microsoft:before,
 .btn-outline-microsoft:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-microsoft:before,
+.btn-outline-microsoft:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-microsoft:before, .btn-lg.btn-outline-microsoft:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-microsoft:before, .btn-sm.btn-outline-microsoft:before {
+  font-size: 0.9em;
 }
 
 .btn-odnoklassniki {
@@ -1830,9 +2009,25 @@
 .btn-odnoklassniki:before,
 .btn-outline-odnoklassniki:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-odnoklassniki:before,
+.btn-outline-odnoklassniki:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-odnoklassniki:before, .btn-lg.btn-outline-odnoklassniki:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-odnoklassniki:before, .btn-sm.btn-outline-odnoklassniki:before {
+  font-size: 0.9em;
 }
 
 .btn-openid {
@@ -1974,9 +2169,25 @@
 .btn-openid:before,
 .btn-outline-openid:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-openid:before,
+.btn-outline-openid:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-openid:before, .btn-lg.btn-outline-openid:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-openid:before, .btn-sm.btn-outline-openid:before {
+  font-size: 0.9em;
 }
 
 .btn-pinterest {
@@ -2118,9 +2329,25 @@
 .btn-pinterest:before,
 .btn-outline-pinterest:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-pinterest:before,
+.btn-outline-pinterest:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-pinterest:before, .btn-lg.btn-outline-pinterest:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-pinterest:before, .btn-sm.btn-outline-pinterest:before {
+  font-size: 0.9em;
 }
 
 .btn-reddit {
@@ -2262,9 +2489,25 @@
 .btn-reddit:before,
 .btn-outline-reddit:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-reddit:before,
+.btn-outline-reddit:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-reddit:before, .btn-lg.btn-outline-reddit:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-reddit:before, .btn-sm.btn-outline-reddit:before {
+  font-size: 0.9em;
 }
 
 .btn-soundcloud {
@@ -2406,9 +2649,25 @@
 .btn-soundcloud:before,
 .btn-outline-soundcloud:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-soundcloud:before,
+.btn-outline-soundcloud:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-soundcloud:before, .btn-lg.btn-outline-soundcloud:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-soundcloud:before, .btn-sm.btn-outline-soundcloud:before {
+  font-size: 0.9em;
 }
 
 .btn-tumblr {
@@ -2550,9 +2809,25 @@
 .btn-tumblr:before,
 .btn-outline-tumblr:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-tumblr:before,
+.btn-outline-tumblr:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-tumblr:before, .btn-lg.btn-outline-tumblr:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-tumblr:before, .btn-sm.btn-outline-tumblr:before {
+  font-size: 0.9em;
 }
 
 .btn-twitter {
@@ -2694,9 +2969,25 @@
 .btn-twitter:before,
 .btn-outline-twitter:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-twitter:before,
+.btn-outline-twitter:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-twitter:before, .btn-lg.btn-outline-twitter:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-twitter:before, .btn-sm.btn-outline-twitter:before {
+  font-size: 0.9em;
 }
 
 .btn-vimeo {
@@ -2838,9 +3129,25 @@
 .btn-vimeo:before,
 .btn-outline-vimeo:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-vimeo:before,
+.btn-outline-vimeo:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-vimeo:before, .btn-lg.btn-outline-vimeo:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-vimeo:before, .btn-sm.btn-outline-vimeo:before {
+  font-size: 0.9em;
 }
 
 .btn-vk {
@@ -2982,9 +3289,25 @@
 .btn-vk:before,
 .btn-outline-vk:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-vk:before,
+.btn-outline-vk:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-vk:before, .btn-lg.btn-outline-vk:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-vk:before, .btn-sm.btn-outline-vk:before {
+  font-size: 0.9em;
 }
 
 .btn-yahoo {
@@ -3126,9 +3449,25 @@
 .btn-yahoo:before,
 .btn-outline-yahoo:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-yahoo:before,
+.btn-outline-yahoo:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-yahoo:before, .btn-lg.btn-outline-yahoo:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-yahoo:before, .btn-sm.btn-outline-yahoo:before {
+  font-size: 0.9em;
 }
 
 .btn-gitlab {
@@ -3270,9 +3609,25 @@
 .btn-gitlab:before,
 .btn-outline-gitlab:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-gitlab:before,
+.btn-outline-gitlab:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-gitlab:before, .btn-lg.btn-outline-gitlab:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-gitlab:before, .btn-sm.btn-outline-gitlab:before {
+  font-size: 0.9em;
 }
 
 .btn-amazon {
@@ -3414,9 +3769,25 @@
 .btn-amazon:before,
 .btn-outline-amazon:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-amazon:before,
+.btn-outline-amazon:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-amazon:before, .btn-lg.btn-outline-amazon:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-amazon:before, .btn-sm.btn-outline-amazon:before {
+  font-size: 0.9em;
 }
 
 .btn-apple {
@@ -3558,9 +3929,25 @@
 .btn-apple:before,
 .btn-outline-apple:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-apple:before,
+.btn-outline-apple:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-apple:before, .btn-lg.btn-outline-apple:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-apple:before, .btn-sm.btn-outline-apple:before {
+  font-size: 0.9em;
 }
 
 .btn-evernote {
@@ -3702,9 +4089,25 @@
 .btn-evernote:before,
 .btn-outline-evernote:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-evernote:before,
+.btn-outline-evernote:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-evernote:before, .btn-lg.btn-outline-evernote:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-evernote:before, .btn-sm.btn-outline-evernote:before {
+  font-size: 0.9em;
 }
 
 .btn-buffer {
@@ -3846,9 +4249,25 @@
 .btn-buffer:before,
 .btn-outline-buffer:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-buffer:before,
+.btn-outline-buffer:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-buffer:before, .btn-lg.btn-outline-buffer:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-buffer:before, .btn-sm.btn-outline-buffer:before {
+  font-size: 0.9em;
 }
 
 .btn-dailymotion {
@@ -3990,9 +4409,25 @@
 .btn-dailymotion:before,
 .btn-outline-dailymotion:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-dailymotion:before,
+.btn-outline-dailymotion:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-dailymotion:before, .btn-lg.btn-outline-dailymotion:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-dailymotion:before, .btn-sm.btn-outline-dailymotion:before {
+  font-size: 0.9em;
 }
 
 .btn-deezer {
@@ -4134,9 +4569,25 @@
 .btn-deezer:before,
 .btn-outline-deezer:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-deezer:before,
+.btn-outline-deezer:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-deezer:before, .btn-lg.btn-outline-deezer:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-deezer:before, .btn-sm.btn-outline-deezer:before {
+  font-size: 0.9em;
 }
 
 .btn-deviantart {
@@ -4278,9 +4729,25 @@
 .btn-deviantart:before,
 .btn-outline-deviantart:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-deviantart:before,
+.btn-outline-deviantart:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-deviantart:before, .btn-lg.btn-outline-deviantart:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-deviantart:before, .btn-sm.btn-outline-deviantart:before {
+  font-size: 0.9em;
 }
 
 .btn-jira {
@@ -4422,9 +4889,25 @@
 .btn-jira:before,
 .btn-outline-jira:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-jira:before,
+.btn-outline-jira:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-jira:before, .btn-lg.btn-outline-jira:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-jira:before, .btn-sm.btn-outline-jira:before {
+  font-size: 0.9em;
 }
 
 .btn-paypal {
@@ -4566,9 +5049,25 @@
 .btn-paypal:before,
 .btn-outline-paypal:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-paypal:before,
+.btn-outline-paypal:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-paypal:before, .btn-lg.btn-outline-paypal:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-paypal:before, .btn-sm.btn-outline-paypal:before {
+  font-size: 0.9em;
 }
 
 .btn-qq {
@@ -4710,9 +5209,25 @@
 .btn-qq:before,
 .btn-outline-qq:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-qq:before,
+.btn-outline-qq:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-qq:before, .btn-lg.btn-outline-qq:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-qq:before, .btn-sm.btn-outline-qq:before {
+  font-size: 0.9em;
 }
 
 .btn-salesforce {
@@ -4854,9 +5369,25 @@
 .btn-salesforce:before,
 .btn-outline-salesforce:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-salesforce:before,
+.btn-outline-salesforce:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-salesforce:before, .btn-lg.btn-outline-salesforce:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-salesforce:before, .btn-sm.btn-outline-salesforce:before {
+  font-size: 0.9em;
 }
 
 .btn-snapchat {
@@ -4998,9 +5529,25 @@
 .btn-snapchat:before,
 .btn-outline-snapchat:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-snapchat:before,
+.btn-outline-snapchat:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-snapchat:before, .btn-lg.btn-outline-snapchat:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-snapchat:before, .btn-sm.btn-outline-snapchat:before {
+  font-size: 0.9em;
 }
 
 .btn-slack {
@@ -5142,9 +5689,25 @@
 .btn-slack:before,
 .btn-outline-slack:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-slack:before,
+.btn-outline-slack:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-slack:before, .btn-lg.btn-outline-slack:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-slack:before, .btn-sm.btn-outline-slack:before {
+  font-size: 0.9em;
 }
 
 .btn-spotify {
@@ -5286,9 +5849,25 @@
 .btn-spotify:before,
 .btn-outline-spotify:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-spotify:before,
+.btn-outline-spotify:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-spotify:before, .btn-lg.btn-outline-spotify:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-spotify:before, .btn-sm.btn-outline-spotify:before {
+  font-size: 0.9em;
 }
 
 .btn-stack-exchange {
@@ -5430,9 +6009,25 @@
 .btn-stack-exchange:before,
 .btn-outline-stack-exchange:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-stack-exchange:before,
+.btn-outline-stack-exchange:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-stack-exchange:before, .btn-lg.btn-outline-stack-exchange:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-stack-exchange:before, .btn-sm.btn-outline-stack-exchange:before {
+  font-size: 0.9em;
 }
 
 .btn-stack-overflow {
@@ -5574,9 +6169,25 @@
 .btn-stack-overflow:before,
 .btn-outline-stack-overflow:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-stack-overflow:before,
+.btn-outline-stack-overflow:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-stack-overflow:before, .btn-lg.btn-outline-stack-overflow:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-stack-overflow:before, .btn-sm.btn-outline-stack-overflow:before {
+  font-size: 0.9em;
 }
 
 .btn-strava {
@@ -5718,9 +6329,25 @@
 .btn-strava:before,
 .btn-outline-strava:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-strava:before,
+.btn-outline-strava:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-strava:before, .btn-lg.btn-outline-strava:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-strava:before, .btn-sm.btn-outline-strava:before {
+  font-size: 0.9em;
 }
 
 .btn-trello {
@@ -5862,9 +6489,25 @@
 .btn-trello:before,
 .btn-outline-trello:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-trello:before,
+.btn-outline-trello:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-trello:before, .btn-lg.btn-outline-trello:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-trello:before, .btn-sm.btn-outline-trello:before {
+  font-size: 0.9em;
 }
 
 .btn-twitch {
@@ -6006,9 +6649,25 @@
 .btn-twitch:before,
 .btn-outline-twitch:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-twitch:before,
+.btn-outline-twitch:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-twitch:before, .btn-lg.btn-outline-twitch:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-twitch:before, .btn-sm.btn-outline-twitch:before {
+  font-size: 0.9em;
 }
 
 .btn-wordpress {
@@ -6150,9 +6809,25 @@
 .btn-wordpress:before,
 .btn-outline-wordpress:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-wordpress:before,
+.btn-outline-wordpress:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-wordpress:before, .btn-lg.btn-outline-wordpress:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-wordpress:before, .btn-sm.btn-outline-wordpress:before {
+  font-size: 0.9em;
 }
 
 .btn-xing {
@@ -6294,9 +6969,25 @@
 .btn-xing:before,
 .btn-outline-xing:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-xing:before,
+.btn-outline-xing:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-xing:before, .btn-lg.btn-outline-xing:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-xing:before, .btn-sm.btn-outline-xing:before {
+  font-size: 0.9em;
 }
 
 .btn-whatsapp {
@@ -6438,9 +7129,25 @@
 .btn-whatsapp:before,
 .btn-outline-whatsapp:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-whatsapp:before,
+.btn-outline-whatsapp:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-whatsapp:before, .btn-lg.btn-outline-whatsapp:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-whatsapp:before, .btn-sm.btn-outline-whatsapp:before {
+  font-size: 0.9em;
 }
 
 .btn-line {
@@ -6582,9 +7289,25 @@
 .btn-line:before,
 .btn-outline-line:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-line:before,
+.btn-outline-line:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-line:before, .btn-lg.btn-outline-line:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-line:before, .btn-sm.btn-outline-line:before {
+  font-size: 0.9em;
 }
 
 .btn-yandex {
@@ -6726,9 +7449,25 @@
 .btn-yandex:before,
 .btn-outline-yandex:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-yandex:before,
+.btn-outline-yandex:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-yandex:before, .btn-lg.btn-outline-yandex:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-yandex:before, .btn-sm.btn-outline-yandex:before {
+  font-size: 0.9em;
 }
 
 .btn-youtube {
@@ -6870,9 +7609,25 @@
 .btn-youtube:before,
 .btn-outline-youtube:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-youtube:before,
+.btn-outline-youtube:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-youtube:before, .btn-lg.btn-outline-youtube:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-youtube:before, .btn-sm.btn-outline-youtube:before {
+  font-size: 0.9em;
 }
 
 .btn-tiktok {
@@ -7014,9 +7769,25 @@
 .btn-tiktok:before,
 .btn-outline-tiktok:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-tiktok:before,
+.btn-outline-tiktok:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-tiktok:before, .btn-lg.btn-outline-tiktok:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-tiktok:before, .btn-sm.btn-outline-tiktok:before {
+  font-size: 0.9em;
 }
 
 .btn-firefox {
@@ -7158,9 +7929,25 @@
 .btn-firefox:before,
 .btn-outline-firefox:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 1.3rem;
   content: "";
   display: inline-block;
+  font-size: 1.7em;
+}
+
+.btn-firefox:before,
+.btn-outline-firefox:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  display: inline-block;
+  font-size: 1.35em;
+}
+
+.btn-lg.btn-firefox:before, .btn-lg.btn-outline-firefox:before {
+  font-size: 1.8em;
+}
+
+.btn-sm.btn-firefox:before, .btn-sm.btn-outline-firefox:before {
+  font-size: 0.9em;
 }
 
 /*# sourceMappingURL=stylesheet-socials.css.map */

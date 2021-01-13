@@ -46,7 +46,7 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
     > :first-child {
       line-height: $bs-height-lg;
       width: $bs-height-lg;
-      font-size: 1.6em;
+      font-size: 1.8em;
     }
   }
   &.btn-sm {
@@ -76,15 +76,18 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
   width: ($bs-height-base + 2);
   text-align: center;
 
+  font-size: 1em;
   padding: 0;
 
   > :first-child {
     border: none;
     width: 100% !important;
   }
+
   &.btn-lg {
     height: $bs-height-lg;
     width: $bs-height-lg;
+    font-size: 1em;
     padding-left: 0;
     padding-right: 0;
   }
@@ -93,6 +96,7 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
     width: ($bs-height-sm + 2);
     padding-left: 0;
     padding-right: 0;
+    font-size: 1em;
   }
 
 }
@@ -115,9 +119,33 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
   .btn-#{$name}:before,
   .btn-outline-#{$name}:before {
     font-family: "Font Awesome 5 Brands";
-    font-size:1.3rem;
     content: $unicode;
     display: inline-block;
+
+    font-size:1.7em;
+  }
+
+  .btn-#{$name}:before,
+  .btn-outline-#{$name}:before {
+    font-family: "Font Awesome 5 Brands";
+    content: $unicode;
+    display: inline-block;
+
+    font-size:1.35em;
+  }
+
+  .btn-lg {
+    &.btn-#{$name}:before,
+    &.btn-outline-#{$name}:before {
+      font-size:1.8em;
+    }
+  }
+
+  .btn-sm {
+    &.btn-#{$name}:before,
+    &.btn-outline-#{$name}:before {
+      font-size:0.9em;
+    }
   }
 }
 
@@ -135,7 +163,7 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
 @include btn-social("odnoklassniki",     '\f263', #f4731c        );
 @include btn-social("openid",            '\f19b', #f7931e        );
 @include btn-social("pinterest",         '\f0d2', #cb2027        );
-@include btn-social("reddit",            '\f1a1', #eff7ff, #000);
+@include btn-social("reddit",            '\f1a1', #eff7ff, #000  );
 @include btn-social("soundcloud",        '\f1be', #ff5500        );
 @include btn-social("tumblr",            '\f173', #2c4762        );
 @include btn-social("twitter",           '\f099', #55acee        );

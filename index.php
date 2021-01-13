@@ -89,24 +89,12 @@ array_walk($block4, function(&$social, $code) {
   list($faCode, $color,$name) = $social;
 
   $social =
-		"<button class=\"btn btn-block btn-social btn-lg btn-color-".$code."\">".
-              	    "<span class=\"".$faCode."\"></span> Sign in with ".$name.
-	        "</button>".
-		"<button class=\"btn btn-block btn-social btn-lg btn-outline-color-".$code."\">".
-              	    "<span class=\"".$faCode."\"></span> Sign in with ".$name.
-	        "</button>".
-		"<button class=\"btn btn-block btn-social btn-color-".$code."\">".
-              	    "<span class=\"".$faCode."\"></span> Sign in with ".$name.
-	        "</button>".
-		"<button class=\"btn btn-block btn-social btn-outline-color-".$code."\">".
-              	    "<span class=\"".$faCode."\"></span> Sign in with ".$name.
-	        "</button>".
-		"<button class=\"btn btn-block btn-social btn-sm btn-color-".$code."\">".
-              	    "<span class=\"".$faCode."\"></span> Sign in with ".$name.
-          "</button>".
-    "<button class=\"btn btn-block btn-social btn-sm btn-outline-color-".$code."\">".
-              	    "<span class=\"".$faCode."\"></span> Sign in with ".$name.
-	        "</button>";
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-color-".$code."\"        ><span class=\"".$faCode."\"></span> Sign in with ".$name."</button>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-outline-color-".$code."\"><span class=\"".$faCode."\"></span> Sign in with ".$name."</button>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-color-".$code."\"               ><span class=\"".$faCode."\"></span> Sign in with ".$name."</button>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-outline-color-".$code."\"       ><span class=\"".$faCode."\"></span> Sign in with ".$name."</button>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-color-".$code."\"        ><span class=\"".$faCode."\"></span> Sign in with ".$name."</button>".
+    "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-outline-color-".$code."\"><span class=\"".$faCode."\"></span> Sign in with ".$name."</button>";
 
 });
 
@@ -116,14 +104,16 @@ array_walk($block5, function(&$social, $code) {
   list($faCode, $color,$name) = $social;
 
   $social =
-        "<button class=\"btn btn-social-icon btn-lg btn-color-".$code."\"><span class=\"".$faCode."\"></span></button>".
-        "<button class=\"btn btn-social-icon btn-lg btn-outline-color-".$code."\"><span class=\"".$faCode."\"></span></button>".
-        "<button class=\"btn btn-social-icon        btn-color-".$code."\"pan class=\"".$faCode."\"></span></button>".
-        "<button class=\"btn btn-social-icon        btn-outline-color-".$code."\"pan class=\"".$faCode."\"></span></button>".
-        "<button class=\"btn btn-social-icon btn-sm btn-color-".$code."\"><span class=\"".$faCode."\"></span></button>".
-        "<button class=\"btn btn-social-icon btn-sm btn-outline-color-".$code."\"><span class=\"".$faCode."\"></span></button>";
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-color-".$code."\"><span class=\"".$faCode."\"></button>".
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-outline-color-".$code."\"><span class=\"".$faCode."\"></button>".
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-color-".$code."\"><span class=\"".$faCode."\"></button>".
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-outline-color-".$code."\"><span class=\"".$faCode."\"></button>".
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-color-".$code."\"><span class=\"".$faCode."\"></button>".
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-outline-color-".$code."\"><span class=\"".$faCode."\"></button>";
 
 });
+
+
 
 $block6 = array_merge(array(), $socials);
 array_walk($block6, function(&$social, $code) {
@@ -131,10 +121,13 @@ array_walk($block6, function(&$social, $code) {
   list($faCode, $color,$name) = $social;
 
   $social =
-        "<button class=\"btn btn-social-icon btn-".$code."\"></button>".
-        "<button class=\"btn btn-social-icon btn-outline-".$code."\"></button>".
-        "<button class=\"btn btn-social-icon btn-color-".$code."\"></button>".
-        "<button class=\"btn btn-social-icon btn-outline-color-".$code."\"></button>";
+        "<button class=\"btn btn-social-icon btn-lg btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
+        "<button class=\"btn btn-social-icon btn-lg btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
+        "<button class=\"btn btn-social-icon        btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
+        "<button class=\"btn btn-social-icon        btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
+        "<button class=\"btn btn-social-icon btn-sm btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
+        "<button class=\"btn btn-social-icon btn-sm btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>";
+
 });
 
 ?>
@@ -285,23 +278,40 @@ array_walk($block6, function(&$social, $code) {
       <div class="row">
         <div class="col-sm-4 social-buttons">
           <h3 class="text-center">The Buttons</h3>
+          <br/>
+
 	        <ul id="dock2" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
           <hr>
         </div>
 
         <div class="col-sm-4">
           <h3 class="text-center">Available Classes</h3>
+          <br/>
+
           <ul class="social-class list-unstyled">
 	        <?php foreach($block3 as $block) echo $block; ?>
           </ul>
         </div>
         <div class="col-sm-4">
           <div class="social-sizes">
+
             <h3 class="text-center">Different sizes & styles</h3>
-            <?php echo $block4["google"]; ?>
-            <hr>
+            <br/>
+
             <div class="text-center">
-		        <?php echo $block5["google"]; ?>
+              <?php echo $block4["google"]; ?>
+            </div>
+            <hr>
+
+            <div class="text-center">
+		        <p>You can use the badge style..</p>
+            <?php echo $block5["google"]; ?>
+            </div>
+            <hr>
+
+            <div class="text-center">
+            <p>.. or also tune it with your own icon or text</p>
+		        <?php echo $block6["google"]; ?>
             </div>
           </div>
         </div>
