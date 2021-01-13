@@ -151,9 +151,9 @@ array_walk($block6, function(&$social, $code) {
     <link rel="stylesheet" href="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.css">
     <link rel="stylesheet" href="https://assets.glitchr.io/fonts/FontAwesome/5.15.1/css/all.min.css">
 
-    <link rel="stylesheet" href="https://bootstrap-socials.glitchr.io/assets/css/stylesheet-socials.css">
-    <link rel="stylesheet" href="https://bootstrap-socials.glitchr.io/assets/css/stylesheet-gitlab.css">
-    <link rel="stylesheet" href="https://bootstrap-socials.glitchr.io/assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/stylesheet-socials.css">
+    <link rel="stylesheet" href="assets/css/stylesheet-gitlab.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
 
     <script src="https://assets.glitchr.io/jquery/jquery-3.5.1.min.js"></script>
     <script src="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.js"></script>

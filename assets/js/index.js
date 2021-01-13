@@ -1,3 +1,16 @@
+jQuery.expr[':'].regex = function (elem, index, match) {
+  var matchParams = match[3].split(','),
+    validLabels = /^(data|css):/,
+    attr = {
+      method: matchParams[0].match(validLabels) ?
+        matchParams[0].split(':')[0] : 'attr',
+      property: matchParams.shift().replace(validLabels, '')
+    },
+    regexFlags = 'ig',
+    regex = new RegExp(matchParams.join('').replace(/^\s+|\s+$/g, ''), regexFlags);
+  return regex.test(jQuery(elem)[attr.method](attr.property));
+}
+
 $(function () {
   var all_classes = "";
   var timer = undefined;
@@ -11,13 +24,19 @@ $(function () {
     if ($(this).data("icon"))
       icon_name = $(this).data("icon");
 
+    console.log($('.btn-color-*', '.social-sizes'));
+
     var icon = "<span class='fab fa-" + icon_name + "'></span>";
     $('.btn-social', '.social-sizes').html(icon + "Sign in with " + $(this).data("name"));
     $('.btn-social-icon', '.social-sizes').html(icon);
-    $('.btn-color-*', '.social-sizes').removeClass(all_classes);
-    $('.btn-color-*', '.social-sizes').addClass("btn-color-" + $(this).data('code'));
-    $('.btn-outline-color-*', '.social-sizes').removeClass(all_classes);
-    $('.btn-outline-color-*', '.social-sizes').addClass("btn-outline-color-" + $(this).data('code'));
+
+    var btnColor = $('button:regex(class, btn-color.*)', '.social-sizes');
+    btnColor.removeClass(all_classes);
+    btnColor.addClass("btn-color-" + $(this).data('code'));
+
+    var btnOutlineColor = $('button:regex(class, btn-outline-color.*)', '.social-sizes');
+    btnOutlineColor.removeClass(all_classes);
+    btnOutlineColor.addClass("btn-outline-color-" + $(this).data('code'));
   });
   $($('li', '.social-class')[Math.floor($('li', '.social-class').length * Math.random())]).mouseenter();
 });
