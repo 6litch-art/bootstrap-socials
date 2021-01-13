@@ -12,7 +12,7 @@ function fontawesome {
                     sed 's/"unicode":"\(.*\)"/\1/g' | head -1)
 
 	#echo "\"$1\", \"$UNICODE\""
-	echo "'$UNICODE'"
+	echo "\\$UNICODE"
 }
 
 if [ ! -z "$1" ]; then

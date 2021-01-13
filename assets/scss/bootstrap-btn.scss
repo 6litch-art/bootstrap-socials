@@ -3,51 +3,69 @@
 // Easily pump out default styles, as well as :hover, :focus, :active,
 // and disabled options for all buttons
 
-@mixin button-variant($color, $background, $border) {
-  color: $color !important;
-  background-color: $background !important;
-  border-color: darken($border,10%) !important;
+@import 'gradient.scss';
+
+@mixin button-variant($primary, $secondary, $fontColor, $gradient:none, $direction:0deg) {
+
+  $darken10: darken-list($primary, 10%);
+  $darken17: darken-list($primary, 17%);
+  $secondary: nth($secondary, 1);
+
+
+  $bkg: gradient($gradient, $direction, $primary);
+  $bkgHover: gradient($gradient, $direction, $darken10);
+  $bkgClick: gradient($gradient, $direction, $darken17);
+
+  //@debug $bkg $bkgHover $bkgClick;
+
+  color: $fontColor !important;
+  background: $bkg;
+  border-color: darken($secondary, 10%) !important;
 
   &:focus,
   &.focus {
-    color: $color !important;
-    background-color: darken($background, 10%) !important;
-    border-color: darken($border, 25%) !important;
+    color: $fontColor !important;
+    background: $bkgHover !important;
+    border-color: darken($secondary, 25%) !important;
   }
+
   &:hover {
-    color: $color !important;
-    background-color: darken($background, 10%) !important;
-    border-color: darken($border, 12%) !important;
+    color: $fontColor !important;
+    background: $bkgHover !important;
+    border-color: darken($secondary, 12%) !important;
   }
+
   &:active,
   &.active,
-  .open > &.dropdown-toggle {
-    color: $color !important;
-    background-color: darken($background, 10%) !important;
+  .open>&.dropdown-toggle {
+    color: $fontColor !important;
+    background: $bkgHover !important;
     background-image: none;
-    border-color: darken($border, 12%) !important;
+    border-color: darken($secondary, 12%) !important;
 
     &:hover,
     &:focus,
     &.focus {
-      color: $color !important;
-      background-color: darken($background, 17%) !important;
-      border-color: darken($border, 25%) !important;
+      color: $fontColor !important;
+      background: $bkgClick !important;
+      border-color: darken($secondary, 25%) !important;
     }
   }
+
   &.disabled,
   &[disabled],
   fieldset[disabled] & {
+
     &:hover,
     &:focus,
     &.focus {
-      background-color: $background !important;
-      border-color: $border !important;
+      background: $bkg !important;
+      border-color: $secondary !important;
     }
   }
 
   .badge {
-    color: $background !important;
-    background-color: $color !important;
+    color: $bkg !important;
+    background: $fontColor !important;
   }
 }

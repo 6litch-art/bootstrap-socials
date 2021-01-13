@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
@@ -7,6 +11,10 @@ body {
 h2 {
     text-align: center;
     font-weight: 300
+}
+
+h2 a {
+ color: #212529;
 }
 
 .jumbotron {
@@ -253,23 +261,15 @@ pre code {
   overflow-y: scroll;
 }
 
-#dock {
-    position:relative;
-    top:-50px;
-    min-height: 100px;
-}
-
-#dock .btn-social-icon, .btn-social-icon-circle {
-    margin-right: -25px;
-    left: -25px;
-}
-
-#dock2 {
-    position:relative;
-    width:90%;
-}
-
-#dock2 .btn-social {
-    margin-bottom: -15px;
-    top: -15px;
-}
+#dock0 { position:relative; top:-50px; min-height: 100px; }
+#dock0 .btn-social,      #dock0 .btn-social-circle,
+#dock0 .btn-social-icon, #dock0 .btn-social-icon-circle { margin-right: -25px; left: -25px; }
+#dock1 { position:relative; width:90%; }
+#dock1 .btn-social, #dock1 .btn-social-circle,
+#dock1 .btn-social-icon, #dock1 .btn-social-icon-circle { margin-bottom: -15px; top: -15px; }
+#dock2 { position:relative; width:90%; }
+#dock2 .btn-social-icon, #dock2 .btn-social-icon-circle,
+#dock2 .btn-social, #dock2 .btn-social-circle { margin-bottom: -15px; top: -15px; }
+#dock3 { position:relative; width:90%; }
+#dock3 .btn-social, #dock3 .btn-social-circle,
+#dock3 .btn-social-icon, #dock3 .btn-social-icon-circle{ margin-bottom: -15px; top: -15px; }

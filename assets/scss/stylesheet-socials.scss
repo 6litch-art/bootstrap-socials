@@ -5,164 +5,30 @@
  * Copyright 2013-2016 Panayiotis Lipiridis
  * Licensed under the MIT License
  *
- * https://gitlab.glitchr.io/KZL/bootstrap-socials
+ * https: //gitlab.glitchr.io/KZL/bootstrap-socials
  *
  */
 
 @import 'bootstrap.scss';
 @import 'bootstrap-btn.scss';
 @import 'bootstrap-btn-outline.scss';
+@import 'bootstrap-btn-social.scss';
 
-$bs-height-base: ($line-height-computed + $padding-base-vertical * 2) !default;
-$bs-height-lg:   (floor($font-size-large * $line-height-base) + $padding-large-vertical * 2) !default;
-$bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !default;
-
-.fa, .fab, .fad, .fal, .far, .fas {line-height:unset;}
-
-.btn-social {
-
-  position: relative;
-  padding-left: ($bs-height-base + $padding-base-horizontal);
-  text-align: left;
-  white-space: nowrap;
-  margin-left:5px;
-  margin-right:5px;
-
-  overflow: hidden;
-  text-overflow: ellipsis;
-  > :first-child {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    line-height: $bs-height-base+2;
-    width: $bs-height-base;
-    font-size: 1.35em;
-    text-align: center;
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
-  }
-  &.btn-lg {
-    padding-left: ($bs-height-lg + $padding-large-horizontal);
-    > :first-child {
-      line-height: $bs-height-lg;
-      width: $bs-height-lg;
-      font-size: 1.8em;
-    }
-  }
-  &.btn-sm {
-    padding-left: ($bs-height-sm + $padding-small-horizontal);
-    > :first-child {
-      line-height: $bs-height-sm;
-      width: $bs-height-sm;
-      font-size: 1em;
-    }
-  }
-}
-
-.btn-social-icon-circle {
-  @extend .btn-social-icon;
-  border-radius:$bs-height-base/2+2;
-  &.btn-lg {
-  border-radius:$bs-height-lg/2+4;
-  }
-  &.btn-sm {
-  border-radius:$bs-height-sm/2+2;
-  }
-}
-
-.btn-social-icon {
-  @extend .btn-social;
-  height: ($bs-height-base + 2);
-  width: ($bs-height-base + 2);
-  text-align: center;
-
-  font-size: 1em;
-  padding: 0;
-
-  > :first-child {
-    border: none;
-    width: 100% !important;
-  }
-
-  &.btn-lg {
-    height: $bs-height-lg;
-    width: $bs-height-lg;
-    font-size: 1em;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  &.btn-sm {
-    height: ($bs-height-sm + 2);
-    width: ($bs-height-sm + 2);
-    padding-left: 0;
-    padding-right: 0;
-    font-size: 1em;
-  }
-
-}
-
-.btn-social-icon span,i {
-
-  line-height: $bs-height-base - 2;
-}
-
-
-@mixin btn-social($name, $unicode, $primary: #000, $font: #FFF) {
-
-  // Basic commands
-  .btn-#{$name}         { @include button-variant($font, $primary, $primary); }
-  .btn-color-#{$name}         { @include button-variant($font, $primary, $primary); }
-  .btn-outline-#{$name} { @include button-outline-variant($primary, $font); }
-  .btn-outline-color-#{$name} { @include button-outline-variant($primary, $font);   }
-
-  // Add icon to the class
-  .btn-#{$name}:before,
-  .btn-outline-#{$name}:before {
-    font-family: "Font Awesome 5 Brands";
-    content: $unicode;
-    display: inline-block;
-
-    font-size:1.7em;
-  }
-
-  .btn-#{$name}:before,
-  .btn-outline-#{$name}:before {
-    font-family: "Font Awesome 5 Brands";
-    content: $unicode;
-    display: inline-block;
-
-    font-size:1.35em;
-  }
-
-  .btn-lg {
-    &.btn-#{$name}:before,
-    &.btn-outline-#{$name}:before {
-      font-size:1.8em;
-    }
-  }
-
-  .btn-sm {
-    &.btn-#{$name}:before,
-    &.btn-outline-#{$name}:before {
-      font-size:0.9em;
-    }
-  }
-}
-
+// Lipis icons
 @include btn-social("adn",               '\f170', #d87a68        );
 @include btn-social("bitbucket",         '\f171', #205081        );
 @include btn-social("dropbox",           '\f16b', #1087dd        );
-@include btn-social("facebook",          '\f09a', #3b5998        );
+@include btn-social("facebook",          '\f09a', #3b5998);
 @include btn-social("flickr",            '\f16e', #ff0084        );
 @include btn-social("foursquare",        '\f180', #f94877        );
 @include btn-social("github",            '\f09b', #444444        );
 @include btn-social("google",            '\f1a0', #dd4b39        );
-@include btn-social("instagram",         '\f16d', #3F729B        );
+@include btn-social("instagram",         '\f16d', #3F729B);
 @include btn-social("linkedin",          '\f08c', #007bb6        );
 @include btn-social("microsoft",         '\f3ca', #2672ec        );
 @include btn-social("odnoklassniki",     '\f263', #f4731c        );
 @include btn-social("openid",            '\f19b', #f7931e        );
-@include btn-social("pinterest",         '\f0d2', #cb2027        );
+@include btn-social("pinterest",         '\f0d2', #cb2027);
 @include btn-social("reddit",            '\f1a1', #eff7ff, #000  );
 @include btn-social("soundcloud",        '\f1be', #ff5500        );
 @include btn-social("tumblr",            '\f173', #2c4762        );
@@ -171,6 +37,8 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
 @include btn-social("vk",                '\f189', #587ea3        );
 @include btn-social("yahoo",             '\f19e', #720e9e        );
 
+// Additional icons
+@include btn-social("rss",               ['fas', '\f09e'], #ee802f);
 @include btn-social("gitlab",            '\f296', #e24329);
 @include btn-social("amazon",            '\f270', #e47911);
 @include btn-social("apple",             '\f179', #A2AAAD);
@@ -180,7 +48,6 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
 @include btn-social("deezer",            '\e077', #ff0000);
 @include btn-social("deviantart",        '\f1bd', #4e6252);
 @include btn-social("jira",              '\f7b1', #0052CC);
-@include btn-social("paypal",            '\f1ed', #00457c);
 @include btn-social("qq",                '\f1d6', #121214);
 @include btn-social("salesforce",        '\f83b', #1798c1);
 @include btn-social("snapchat",          '\f2ab', #a8a601);
@@ -192,10 +59,30 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
 @include btn-social("trello",            '\f181', #0079bf);
 @include btn-social("twitch",            '\f1e8', #6441a5);
 @include btn-social("wordpress",         '\f19a', #21759b);
-@include btn-social("xing",              '\f168', #126567);
 @include btn-social("whatsapp",          '\f232', #128C7E);
+@include btn-social("xing",              '\f168', #126567);
 @include btn-social("line",              '\f3c0', #00B900);
 @include btn-social("yandex",            '\f413', #FFCC00);
 @include btn-social("youtube",           '\f167', #FF0000);
 @include btn-social("tiktok",            '\e07b', #010101);
+@include btn-social("paypal",            '\f1ed', #00457c);
 @include btn-social("firefox",           '\f269', #be0575);
+@include btn-social("telegram-plane",    '\f3fe', #0088CC);
+@include btn-social("facebook-messenger",          '\f232', #008dff);
+@include btn-social("skype",          '\f232', #017cd6);
+
+// Gradient icons
+@include btn-social("facebook-alt",          '\f09a', [#3b5998, #2f477a], #FFF, linear-gradient, to bottom);
+@include btn-social("instagram-alt",         '\f16d', [#fcaf45, #fd1d1d, #833ab4, #833ab4], #FFF, linear-gradient, 45deg);
+@include btn-social("pinterest-alt",         '\f0d2', [#cb2027, #a01c23], #FFF, linear-gradient, 45deg);
+@include btn-social("paypal-alt",            '\f1ed', [#009cde, #003087], #FFF, linear-gradient, 45deg);
+@include btn-social("firefox-alt",           '\f269', [#cb0070, #690073], #FFF, linear-gradient, to bottom);
+@include btn-social("wordpress-alt",         '\f19a', #21759b);
+@include btn-social("whatsapp-alt",          '\f232', #128C7E);
+@include btn-social("gitlab-alt",            '\f296', #e24329);
+@include btn-social("twitter-alt",           '\f099', [#0065fc, #03b7b2], #FFF, radial-gradient, ellipse at top left);
+@include btn-social("google-alt",            '\f1a0', [#4285f4, #34a853, #fbbc05, #ea4335], #FFF, linear-gradient, -120deg);
+@include btn-social("rss-alt",               ['fas', '\f09e'], [#ee802f,#f26522], #FFF, radial-gradient, ellipse);
+@include btn-social("whatsapp-alt",          '\f232', [#61fd7c, #07b826], #FFF, linear-gradient, to bottom);
+@include btn-social("facebook-messenger-alt",          '\f232', [#008dff, #d02dda, #ff5864], #FFF, linear-gradient, 120deg);
+@include btn-social("skype-alt",          '\f232', [#017cd6, #00a1d4], #FFF, linear-gradient, 120deg);

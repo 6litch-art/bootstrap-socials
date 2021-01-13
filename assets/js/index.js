@@ -24,9 +24,7 @@ $(function () {
     if ($(this).data("icon"))
       icon_name = $(this).data("icon");
 
-    console.log($('.btn-color-*', '.social-sizes'));
-
-    var icon = "<span class='fab fa-" + icon_name + "'></span>";
+    var icon = "<span class='" + icon_name + "'></span>";
     $('.btn-changeHTML', '.social-sizes').html(icon + "Sign in with " + $(this).data("name"));
     $('.btn-changeHTML-icon', '.social-sizes').html(icon);
 

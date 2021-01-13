@@ -5,7 +5,9 @@
         // Default options
         var defaultOptions = {y:false, split:1, zoom:1, jump:0, trigger: 1};
         event && window.extend(defaultOptions, event);
+
         var icon = this;
+        if( ! $(icon).length ) return;
 
         // Initial parameters
         var fontSize0 = parseInt($(icon).css("font-size").replace("px", ""));

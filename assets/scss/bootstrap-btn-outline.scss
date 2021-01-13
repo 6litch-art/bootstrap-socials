@@ -1,36 +1,87 @@
+
+//
+/*
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+*/
+//
+
 // Backports from Bootstrap 4
-@mixin button-outline-variant($color, $color-hover: #fff) {
-  color: $color !important;
+@mixin button-outline-variant($primary, $secondary:#FFF, $gradient:none, $direction:0deg) {
+
+  $darken17: darken-list($primary, 17%);
+  $darken25: darken-list($primary, 25%);
+  $lighten20: lighten-list($primary, 20%);
+
+  $gradientPrimary: gradient($gradient, $direction, $primary);
+  $gradientDarken17: gradient($gradient, $direction, $darken17);
+  $gradientDarken25: gradient($gradient, $direction, $darken25);
+  $gradientLighten20: gradient($gradient, $direction, $lighten20);
+
+  $primary: nth($primary,1); 
+  $darken17: nth($darken17,1);
+  $darken25: nth($darken25,1);
+  $lighten20: nth($lighten20,1);
+
+
   background-image: none;
-  background-color: white !important; // transparent is better?
-  border-color: $color !important;
+  background-color: $secondary !important; // transparent is better?
+  border-color: $primary !important;
+
+  color: transparent; //color: $primary !important;
+  background-color: $primary !important;
+  background-image: $gradientPrimary !important;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 
   &:hover {
-    color: $color-hover !important;
-    background-color: $color !important;
-        border-color: $color !important;
+    color: $secondary !important;
+    background-color: $gradientPrimary !important;
+    -webkit-background-clip: unset;
+    -moz-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    -moz-text-fill-color: unset;
+        border-color: $primary !important;
   }
 
   &:focus,
   &.focus {
-    color: $color-hover !important;
-    background-color: $color !important;
-        border-color: $color !important;
+    color: $secondary !important;
+    background-color: $gradientPrimary !important;
+    -webkit-background-clip: unset;
+    -moz-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    -moz-text-fill-color: unset;
+        border-color: $primary !important;
   }
 
   &:active,
   &.active,
   .open > &.dropdown-toggle {
-    color: $color-hover !important;
-    background-color: $color !important;
-        border-color: $color !important;
+    color: $secondary !important;
+    background-color: $gradientPrimary !important;
+    -webkit-background-clip: unset;
+    -moz-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    -moz-text-fill-color: unset;
+        border-color: $primary !important;
 
     &:hover,
     &:focus,
     &.focus {
-      color: $color-hover !important;
-      background-color: darken($color, 17%) !important;
-          border-color: darken($color, 25%) !important;
+      color: $secondary !important;
+      background-color: $gradientDarken17 !important;
+    -webkit-background-clip: unset;
+    -moz-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    -moz-text-fill-color: unset;
+          border-color: $darken25 !important;
     }
   }
 
@@ -38,16 +89,17 @@
   &:disabled {
     &:focus,
     &.focus {
-      border-color: lighten($color, 20%) !important;
+      border-color: $lighten20 !important;
     }
     &:hover {
-      border-color: lighten($color, 20%) !important;
+      border-color: $lighten20 !important;
     }
   }
 }
 
 // Remove all backgrounds
-/*.btn-outline-primary {
+/*
+.btn-outline-primary {
   @include button-outline-variant($btn-primary-bg);
 }
 .btn-outline-secondary {
