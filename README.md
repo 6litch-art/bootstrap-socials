@@ -1,22 +1,18 @@
-
 Social Buttons for Bootstrap
 ============================
-[![npm version](https://badge.fury.io/js/bootstrap-social.svg)](https://badge.fury.io/js/bootstrap-social)
-[![Bower version](https://badge.fury.io/bo/bootstrap-social.svg)](https://badge.fury.io/bo/bootstrap-social)
+
+Original idea by @lipis extended by @kzl____
 
 Social Buttons made in pure CSS based on
 [Bootstrap](http://twbs.github.io/bootstrap/) and
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/)!
 
-[Check the live demo!](http://lipis.github.io/bootstrap-social)
+[Check the live demo!](http://bootstrap-socials.glitchr.io)
 
 Installation
 ------------
 
-Include the `bootstrap-social.css` or `bootstrap-social.less` in your project, or
-install it through [Bower](http://bower.io/):
-
-    bower install bootstrap-social
+Include the default `stylesheet-socials.css` in your project, or generate it using SASS
 
 Available classes
 -----------------
@@ -41,22 +37,25 @@ Available classes
  - `btn-vimeo`
  - `btn-vk`
  - `btn-yahoo`
+ - `btn-[..]`
 
 Examples
 --------
 
 ```html
-<a class="btn btn-block btn-social btn-twitter">
-  <span class="fa fa-twitter"></span>
-  Sign in with Twitter
-</a>
+  <button class="btn [btn-social-icon|btn-social-icon-circle] btn-twitter"></button>
 
-<a class="btn btn-social-icon btn-twitter">
-  <span class="fa fa-twitter"></span>
-</a>
+  <button class="btn btn-social-icon btn-outline-twitter"></button>
+
+  <button class="btn btn-social-icon [btn-color-twitter|btn-outline-color-twitter]">
+    <i class="fa fa-twitter"></i>
+  </button>
+
+  <button class="btn btn-block btn-social btn-color-twitter">
+    <i class="fa fa-twitter"></i> Sign in with Twitter
+  </button>
 ```
 
 Notes
 -----
-For now I won't accept any request for new buttons as I'm planning to
-split the main CSS to have separate files for all of the requested ones.
+You can ask for new icons. Any improvement would be very welcome !
