@@ -1,0 +1,68 @@
+// Backports from Bootstrap 4
+@mixin button-outline-variant($color, $color-hover: #fff) {
+  color: $color !important;
+  background-image: none;
+  background-color: white !important; // transparent is better?
+  border-color: $color !important;
+
+  &:hover {
+    color: $color-hover !important;
+    background-color: $color !important;
+        border-color: $color !important;
+  }
+
+  &:focus,
+  &.focus {
+    color: $color-hover !important;
+    background-color: $color !important;
+        border-color: $color !important;
+  }
+
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    color: $color-hover !important;
+    background-color: $color !important;
+        border-color: $color !important;
+
+    &:hover,
+    &:focus,
+    &.focus {
+      color: $color-hover !important;
+      background-color: darken($color, 17%) !important;
+          border-color: darken($color, 25%) !important;
+    }
+  }
+
+  &.disabled,
+  &:disabled {
+    &:focus,
+    &.focus {
+      border-color: lighten($color, 20%) !important;
+    }
+    &:hover {
+      border-color: lighten($color, 20%) !important;
+    }
+  }
+}
+
+// Remove all backgrounds
+/*.btn-outline-primary {
+  @include button-outline-variant($btn-primary-bg);
+}
+.btn-outline-secondary {
+  @include button-outline-variant($btn-secondary-border);
+}
+.btn-outline-info {
+  @include button-outline-variant($btn-info-bg);
+}
+.btn-outline-success {
+  @include button-outline-variant($btn-success-bg);
+}
+.btn-outline-warning {
+  @include button-outline-variant($btn-warning-bg);
+}
+.btn-outline-danger {
+  @include button-outline-variant($btn-danger-bg);
+}
+*/
