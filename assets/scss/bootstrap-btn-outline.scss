@@ -27,25 +27,13 @@
   $lighten20: nth($lighten20, 1);
 
   color: $secondary !important;
-  background-image: none;
-  background-color: $secondary !important; // transparent is better?
   border-color: $primary !important;
-
   background-color: $primary !important;
   background-image: $gradientPrimary !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-
-  & i:before {
-    background-color: $primary !important;
-    background-image: $gradientPrimary !important;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
 
   &:hover {
     color: $secondary !important;
@@ -94,7 +82,16 @@
   }
 
   // Font awesome icon
-  &:hover i:before {
+  & [class*="fa-"]:before {
+    background-color: $primary !important;
+    background-image: $gradientPrimary !important;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  &:hover [class*="fa-"]:before {
     color: $secondary !important;
 
     background: transparent !important;
@@ -102,22 +99,20 @@
     -moz-background-clip: unset;
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
-    border-color: $primary !important;
   }
 
-  &:focus i:before,
-  &.focus i:before {
+  &:focus [class*="fa-"]:before,
+  &.focus [class*="fa-"]:before {
     color: $secondary !important;
     background: transparent !important;
     -webkit-background-clip: unset;
     -moz-background-clip: unset;
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
-    border-color: $primary !important;
   }
 
-  &:active i:before,
-  &.active i:before,
+  &:active [class*="fa-"]:before,
+  &.active [class*="fa-"]:before,
   .open>&.dropdown-toggle {
     color: $secondary !important;
     background: transparent !important;
@@ -125,7 +120,6 @@
     -moz-background-clip: unset;
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
-    border-color: $primary !important;
   }
 }
 
