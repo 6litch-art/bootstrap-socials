@@ -127,7 +127,7 @@
 
                     var marginRight = -split/2*(1 - magnification) + margin0[1]*(magnification);
                     var marginLeft  = -split/2*(1 - magnification) + margin0[3]*(magnification);
-                    var marginTop   = parseInt(-fontSize0 * (1-magnification));
+                    var marginTop   = -fontSize0 * (1-magnification);
 
                     this.style.fontSize  = fontSize + "px";
                     this.style.top       = jump     + "px";

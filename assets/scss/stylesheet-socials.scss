@@ -95,9 +95,9 @@
 @include btn-social("gitlab-alt",            '\f296', #e24329);
 @include btn-social("twitter-alt",           '\f099', [#0065fc, #03b7b2], #FFF, radial-gradient, ellipse at top left);
 @include btn-social("google-alt",            '\f1a0', [#4285f4, #34a853, #fbbc05, #ea4335], #FFF, linear-gradient, -120deg);
-@include btn-social("rss-alt",               ['fas', '\f09e'], [#ee802f,#f26522], #FFF, radial-gradient, ellipse);
+@include btn-social("rss-alt",               ['fas', '\f09e'], [#edb22d, #f26522], #FFF, radial-gradient, ellipse at top right);
 @include btn-social("whatsapp-alt",          '\f232', [#61fd7c, #07b826], #FFF, linear-gradient, to bottom);
 @include btn-social("facebook-messenger-alt",          '\f232', [#008dff, #d02dda, #ff5864], #FFF, linear-gradient, 120deg);
-@include btn-social("skype-alt",          '\f232', [#017cd6, #00a1d4], #FFF, linear-gradient, 120deg);
+@include btn-social("skype-alt",          '\f232', [#ff0092,#00e7ff], #FFF, radial-gradient, ellipse at top left);
 
 @include btn-social("ubuntu-alt",             '\f7df', [#dd4814, #77216f], #FFF, linear-gradient, 45deg        );

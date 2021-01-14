@@ -18336,79 +18336,79 @@
 
 .btn-rss-alt {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #ee802f 0%, #f26522 100%);
-  border-color: #d86612 !important;
+  background: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%);
+  border-color: #d59912 !important;
 }
 .btn-rss-alt:focus, .btn-rss-alt.focus {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
-  border-color: #92450c !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
+  border-color: #8e660c !important;
 }
 .btn-rss-alt:hover {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
-  border-color: #cf6111 !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
+  border-color: #cb9211 !important;
 }
 .btn-rss-alt:active, .btn-rss-alt.active, .open > .btn-rss-alt.dropdown-toggle {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
   background-image: none;
-  border-color: #cf6111 !important;
+  border-color: #cb9211 !important;
 }
 .btn-rss-alt:active:hover, .btn-rss-alt:active:focus, .btn-rss-alt:active.focus, .btn-rss-alt.active:hover, .btn-rss-alt.active:focus, .btn-rss-alt.active.focus, .open > .btn-rss-alt.dropdown-toggle:hover, .open > .btn-rss-alt.dropdown-toggle:focus, .open > .btn-rss-alt.dropdown-toggle.focus {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
-  border-color: #92450c !important;
+  background: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
+  border-color: #8e660c !important;
 }
 .btn-rss-alt.disabled:hover, .btn-rss-alt.disabled:focus, .btn-rss-alt.disabled.focus, .btn-rss-alt[disabled]:hover, .btn-rss-alt[disabled]:focus, .btn-rss-alt[disabled].focus, fieldset[disabled] .btn-rss-alt:hover, fieldset[disabled] .btn-rss-alt:focus, fieldset[disabled] .btn-rss-alt.focus {
-  background: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
-  border-color: #ee802f !important;
+  background: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
+  border-color: #edb22d !important;
 }
 .btn-rss-alt .badge {
-  color: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
+  color: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
   background: #FFF !important;
 }
 
 .btn-color-rss-alt {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #ee802f 0%, #f26522 100%);
-  border-color: #d86612 !important;
+  background: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%);
+  border-color: #d59912 !important;
 }
 .btn-color-rss-alt:focus, .btn-color-rss-alt.focus {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
-  border-color: #92450c !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
+  border-color: #8e660c !important;
 }
 .btn-color-rss-alt:hover {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
-  border-color: #cf6111 !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
+  border-color: #cb9211 !important;
 }
 .btn-color-rss-alt:active, .btn-color-rss-alt.active, .open > .btn-color-rss-alt.dropdown-toggle {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
   background-image: none;
-  border-color: #cf6111 !important;
+  border-color: #cb9211 !important;
 }
 .btn-color-rss-alt:active:hover, .btn-color-rss-alt:active:focus, .btn-color-rss-alt:active.focus, .btn-color-rss-alt.active:hover, .btn-color-rss-alt.active:focus, .btn-color-rss-alt.active.focus, .open > .btn-color-rss-alt.dropdown-toggle:hover, .open > .btn-color-rss-alt.dropdown-toggle:focus, .open > .btn-color-rss-alt.dropdown-toggle.focus {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
-  border-color: #92450c !important;
+  background: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
+  border-color: #8e660c !important;
 }
 .btn-color-rss-alt.disabled:hover, .btn-color-rss-alt.disabled:focus, .btn-color-rss-alt.disabled.focus, .btn-color-rss-alt[disabled]:hover, .btn-color-rss-alt[disabled]:focus, .btn-color-rss-alt[disabled].focus, fieldset[disabled] .btn-color-rss-alt:hover, fieldset[disabled] .btn-color-rss-alt:focus, fieldset[disabled] .btn-color-rss-alt.focus {
-  background: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
-  border-color: #ee802f !important;
+  background: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
+  border-color: #edb22d !important;
 }
 .btn-color-rss-alt .badge {
-  color: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
+  color: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
   background: #FFF !important;
 }
 
 .btn-outline-rss-alt {
   color: #FFF !important;
-  border-color: #ee802f !important;
-  background-color: #ee802f !important;
-  background-image: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
+  border-color: #edb22d !important;
+  background-color: #edb22d !important;
+  background-image: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -18416,40 +18416,40 @@
 }
 .btn-outline-rss-alt:hover {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
+  background: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #ee802f !important;
+  border-color: #edb22d !important;
 }
 .btn-outline-rss-alt:focus, .btn-outline-rss-alt.focus {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #ee802f !important;
+  border-color: #edb22d !important;
 }
 .btn-outline-rss-alt:active, .btn-outline-rss-alt.active, .open > .btn-outline-rss-alt.dropdown-toggle {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #ee802f !important;
+  border-color: #edb22d !important;
 }
 .btn-outline-rss-alt.disabled:focus, .btn-outline-rss-alt.disabled.focus, .btn-outline-rss-alt:disabled:focus, .btn-outline-rss-alt:disabled.focus {
-  border-color: #f6ba8d !important;
+  border-color: #f5d48b !important;
 }
 .btn-outline-rss-alt.disabled:hover, .btn-outline-rss-alt:disabled:hover {
-  border-color: #f6ba8d !important;
+  border-color: #f5d48b !important;
 }
 .btn-outline-rss-alt [class*=fa-]:before {
-  background-color: #ee802f !important;
-  background-image: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
+  background-color: #edb22d !important;
+  background-image: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -18482,9 +18482,9 @@
 
 .btn-outline-color-rss-alt {
   color: #FFF !important;
-  border-color: #ee802f !important;
-  background-color: #ee802f !important;
-  background-image: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
+  border-color: #edb22d !important;
+  background-color: #edb22d !important;
+  background-image: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -18492,40 +18492,40 @@
 }
 .btn-outline-color-rss-alt:hover {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
+  background: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #ee802f !important;
+  border-color: #edb22d !important;
 }
 .btn-outline-color-rss-alt:focus, .btn-outline-color-rss-alt.focus {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #ee802f !important;
+  border-color: #edb22d !important;
 }
 .btn-outline-color-rss-alt:active, .btn-outline-color-rss-alt.active, .open > .btn-outline-color-rss-alt.dropdown-toggle {
   color: #FFF !important;
-  background: radial-gradient(ellipse, #d86612 0%, #d54d0d 100%) !important;
+  background: radial-gradient(ellipse at top right, #d59912 0%, #d54d0d 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #ee802f !important;
+  border-color: #edb22d !important;
 }
 .btn-outline-color-rss-alt.disabled:focus, .btn-outline-color-rss-alt.disabled.focus, .btn-outline-color-rss-alt:disabled:focus, .btn-outline-color-rss-alt:disabled.focus {
-  border-color: #f6ba8d !important;
+  border-color: #f5d48b !important;
 }
 .btn-outline-color-rss-alt.disabled:hover, .btn-outline-color-rss-alt:disabled:hover {
-  border-color: #f6ba8d !important;
+  border-color: #f5d48b !important;
 }
 .btn-outline-color-rss-alt [class*=fa-]:before {
-  background-color: #ee802f !important;
-  background-image: radial-gradient(ellipse, #ee802f 0%, #f26522 100%) !important;
+  background-color: #edb22d !important;
+  background-image: radial-gradient(ellipse at top right, #edb22d 0%, #f26522 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19076,79 +19076,79 @@
 
 .btn-skype-alt {
   color: #FFF !important;
-  background: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%);
-  border-color: #015fa3 !important;
+  background: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%);
+  border-color: #cc0075 !important;
 }
 .btn-skype-alt:focus, .btn-skype-alt.focus {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
-  border-color: #003257 !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
+  border-color: #800049 !important;
 }
 .btn-skype-alt:hover {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
-  border-color: #015999 !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
+  border-color: #c2006f !important;
 }
 .btn-skype-alt:active, .btn-skype-alt.active, .open > .btn-skype-alt.dropdown-toggle {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
   background-image: none;
-  border-color: #015999 !important;
+  border-color: #c2006f !important;
 }
 .btn-skype-alt:active:hover, .btn-skype-alt:active:focus, .btn-skype-alt:active.focus, .btn-skype-alt.active:hover, .btn-skype-alt.active:focus, .btn-skype-alt.active.focus, .open > .btn-skype-alt.dropdown-toggle:hover, .open > .btn-skype-alt.dropdown-toggle:focus, .open > .btn-skype-alt.dropdown-toggle.focus {
   color: #FFF !important;
-  background: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
-  border-color: #003257 !important;
+  background: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
+  border-color: #800049 !important;
 }
 .btn-skype-alt.disabled:hover, .btn-skype-alt.disabled:focus, .btn-skype-alt.disabled.focus, .btn-skype-alt[disabled]:hover, .btn-skype-alt[disabled]:focus, .btn-skype-alt[disabled].focus, fieldset[disabled] .btn-skype-alt:hover, fieldset[disabled] .btn-skype-alt:focus, fieldset[disabled] .btn-skype-alt.focus {
-  background: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
-  border-color: #017cd6 !important;
+  background: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
+  border-color: #ff0092 !important;
 }
 .btn-skype-alt .badge {
-  color: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
+  color: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
   background: #FFF !important;
 }
 
 .btn-color-skype-alt {
   color: #FFF !important;
-  background: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%);
-  border-color: #015fa3 !important;
+  background: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%);
+  border-color: #cc0075 !important;
 }
 .btn-color-skype-alt:focus, .btn-color-skype-alt.focus {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
-  border-color: #003257 !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
+  border-color: #800049 !important;
 }
 .btn-color-skype-alt:hover {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
-  border-color: #015999 !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
+  border-color: #c2006f !important;
 }
 .btn-color-skype-alt:active, .btn-color-skype-alt.active, .open > .btn-color-skype-alt.dropdown-toggle {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
   background-image: none;
-  border-color: #015999 !important;
+  border-color: #c2006f !important;
 }
 .btn-color-skype-alt:active:hover, .btn-color-skype-alt:active:focus, .btn-color-skype-alt:active.focus, .btn-color-skype-alt.active:hover, .btn-color-skype-alt.active:focus, .btn-color-skype-alt.active.focus, .open > .btn-color-skype-alt.dropdown-toggle:hover, .open > .btn-color-skype-alt.dropdown-toggle:focus, .open > .btn-color-skype-alt.dropdown-toggle.focus {
   color: #FFF !important;
-  background: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
-  border-color: #003257 !important;
+  background: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
+  border-color: #800049 !important;
 }
 .btn-color-skype-alt.disabled:hover, .btn-color-skype-alt.disabled:focus, .btn-color-skype-alt.disabled.focus, .btn-color-skype-alt[disabled]:hover, .btn-color-skype-alt[disabled]:focus, .btn-color-skype-alt[disabled].focus, fieldset[disabled] .btn-color-skype-alt:hover, fieldset[disabled] .btn-color-skype-alt:focus, fieldset[disabled] .btn-color-skype-alt.focus {
-  background: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
-  border-color: #017cd6 !important;
+  background: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
+  border-color: #ff0092 !important;
 }
 .btn-color-skype-alt .badge {
-  color: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
+  color: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
   background: #FFF !important;
 }
 
 .btn-outline-skype-alt {
   color: #FFF !important;
-  border-color: #017cd6 !important;
-  background-color: #017cd6 !important;
-  background-image: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
+  border-color: #ff0092 !important;
+  background-color: #ff0092 !important;
+  background-image: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19156,40 +19156,40 @@
 }
 .btn-outline-skype-alt:hover {
   color: #FFF !important;
-  background: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
+  background: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #017cd6 !important;
+  border-color: #ff0092 !important;
 }
 .btn-outline-skype-alt:focus, .btn-outline-skype-alt.focus {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #017cd6 !important;
+  border-color: #ff0092 !important;
 }
 .btn-outline-skype-alt:active, .btn-outline-skype-alt.active, .open > .btn-outline-skype-alt.dropdown-toggle {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #017cd6 !important;
+  border-color: #ff0092 !important;
 }
 .btn-outline-skype-alt.disabled:focus, .btn-outline-skype-alt.disabled.focus, .btn-outline-skype-alt:disabled:focus, .btn-outline-skype-alt:disabled.focus {
-  border-color: #3fadfe !important;
+  border-color: #ff66be !important;
 }
 .btn-outline-skype-alt.disabled:hover, .btn-outline-skype-alt:disabled:hover {
-  border-color: #3fadfe !important;
+  border-color: #ff66be !important;
 }
 .btn-outline-skype-alt [class*=fa-]:before {
-  background-color: #017cd6 !important;
-  background-image: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
+  background-color: #ff0092 !important;
+  background-image: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19222,9 +19222,9 @@
 
 .btn-outline-color-skype-alt {
   color: #FFF !important;
-  border-color: #017cd6 !important;
-  background-color: #017cd6 !important;
-  background-image: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
+  border-color: #ff0092 !important;
+  background-color: #ff0092 !important;
+  background-image: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19232,40 +19232,40 @@
 }
 .btn-outline-color-skype-alt:hover {
   color: #FFF !important;
-  background: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
+  background: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #017cd6 !important;
+  border-color: #ff0092 !important;
 }
 .btn-outline-color-skype-alt:focus, .btn-outline-color-skype-alt.focus {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #017cd6 !important;
+  border-color: #ff0092 !important;
 }
 .btn-outline-color-skype-alt:active, .btn-outline-color-skype-alt.active, .open > .btn-outline-color-skype-alt.dropdown-toggle {
   color: #FFF !important;
-  background: linear-gradient(120deg, #015fa3 0%, #007aa1 100%) !important;
+  background: radial-gradient(ellipse at top left, #cc0075 0%, #00b9cc 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
   -moz-text-fill-color: unset;
-  border-color: #017cd6 !important;
+  border-color: #ff0092 !important;
 }
 .btn-outline-color-skype-alt.disabled:focus, .btn-outline-color-skype-alt.disabled.focus, .btn-outline-color-skype-alt:disabled:focus, .btn-outline-color-skype-alt:disabled.focus {
-  border-color: #3fadfe !important;
+  border-color: #ff66be !important;
 }
 .btn-outline-color-skype-alt.disabled:hover, .btn-outline-color-skype-alt:disabled:hover {
-  border-color: #3fadfe !important;
+  border-color: #ff66be !important;
 }
 .btn-outline-color-skype-alt [class*=fa-]:before {
-  background-color: #017cd6 !important;
-  background-image: linear-gradient(120deg, #017cd6 0%, #00a1d4 100%) !important;
+  background-color: #ff0092 !important;
+  background-image: radial-gradient(ellipse at top left, #ff0092 0%, #00e7ff 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
