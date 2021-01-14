@@ -47,7 +47,7 @@
     &:focus,
     &.focus {
       color: $fontColor !important;
-      background: $bkgClick !important;
+      background: $bkg !important;
       border-color: darken($secondary, 25%) !important;
     }
   }

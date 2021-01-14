@@ -1,99 +1,131 @@
-
 //
 /*
     background-color: #f3ec78;
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 */
 //
 
 // Backports from Bootstrap 4
-@mixin button-outline-variant($primary, $secondary:#FFF, $gradient:none, $direction:0deg) {
+@mixin button-outline-variant($primary, $secondary:#FFF, $gradient:none, $direction:0deg, $fa:none) {
 
-  $darken17: darken-list($primary, 17%);
+  $darken10: darken-list($primary, 10%);
   $darken25: darken-list($primary, 25%);
   $lighten20: lighten-list($primary, 20%);
 
   $gradientPrimary: gradient($gradient, $direction, $primary);
-  $gradientDarken17: gradient($gradient, $direction, $darken17);
+  $gradientDarken10: gradient($gradient, $direction, $darken10);
   $gradientDarken25: gradient($gradient, $direction, $darken25);
   $gradientLighten20: gradient($gradient, $direction, $lighten20);
 
-  $primary: nth($primary,1); 
-  $darken17: nth($darken17,1);
-  $darken25: nth($darken25,1);
-  $lighten20: nth($lighten20,1);
+  $primary: nth($primary, 1);
+  $darken10: nth($darken10, 1);
+  $darken25: nth($darken25, 1);
+  $lighten20: nth($lighten20, 1);
 
-
+  color: $secondary !important;
   background-image: none;
   background-color: $secondary !important; // transparent is better?
   border-color: $primary !important;
 
-  color: transparent; //color: $primary !important;
   background-color: $primary !important;
   background-image: $gradientPrimary !important;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  & i:before {
+    background-color: $primary !important;
+    background-image: $gradientPrimary !important;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+  }
 
   &:hover {
     color: $secondary !important;
-    background-color: $gradientPrimary !important;
+    background: $gradientPrimary !important;
     -webkit-background-clip: unset;
     -moz-background-clip: unset;
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
-        border-color: $primary !important;
+    border-color: $primary !important;
   }
 
   &:focus,
   &.focus {
     color: $secondary !important;
-    background-color: $gradientPrimary !important;
+    background: $gradientDarken10 !important;
     -webkit-background-clip: unset;
     -moz-background-clip: unset;
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
-        border-color: $primary !important;
+    border-color: $primary !important;
   }
 
   &:active,
   &.active,
-  .open > &.dropdown-toggle {
+  .open>&.dropdown-toggle {
     color: $secondary !important;
-    background-color: $gradientPrimary !important;
+    background: $gradientDarken10 !important;
     -webkit-background-clip: unset;
     -moz-background-clip: unset;
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
-        border-color: $primary !important;
-
-    &:hover,
-    &:focus,
-    &.focus {
-      color: $secondary !important;
-      background-color: $gradientDarken17 !important;
-    -webkit-background-clip: unset;
-    -moz-background-clip: unset;
-    -webkit-text-fill-color: unset;
-    -moz-text-fill-color: unset;
-          border-color: $darken25 !important;
-    }
+    border-color: $primary !important;
   }
 
   &.disabled,
   &:disabled {
+
     &:focus,
     &.focus {
       border-color: $lighten20 !important;
     }
+
     &:hover {
       border-color: $lighten20 !important;
     }
+  }
+
+  // Font awesome icon
+  &:hover i:before {
+    color: $secondary !important;
+
+    background: transparent !important;
+    -webkit-background-clip: unset;
+    -moz-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    -moz-text-fill-color: unset;
+    border-color: $primary !important;
+  }
+
+  &:focus i:before,
+  &.focus i:before {
+    color: $secondary !important;
+    background: transparent !important;
+    -webkit-background-clip: unset;
+    -moz-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    -moz-text-fill-color: unset;
+    border-color: $primary !important;
+  }
+
+  &:active i:before,
+  &.active i:before,
+  .open>&.dropdown-toggle {
+    color: $secondary !important;
+    background: transparent !important;
+    -webkit-background-clip: unset;
+    -moz-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    -moz-text-fill-color: unset;
+    border-color: $primary !important;
   }
 }
 

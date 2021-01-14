@@ -63,13 +63,26 @@
 @include btn-social("xing",              '\f168', #126567);
 @include btn-social("line",              '\f3c0', #00B900);
 @include btn-social("yandex",            '\f413', #FFCC00);
-@include btn-social("youtube",           '\f167', #FF0000);
+@include btn-social("youtube",           '\f167', #FFF, #F00);
 @include btn-social("tiktok",            '\e07b', #010101);
 @include btn-social("paypal",            '\f1ed', #00457c);
 @include btn-social("firefox",           '\f269', #be0575);
 @include btn-social("telegram-plane",    '\f3fe', #0088CC);
 @include btn-social("facebook-messenger",          '\f232', #008dff);
 @include btn-social("skype",          '\f232', #017cd6);
+
+
+@include btn-social("opera",             '\f26a', #b784a7        );
+@include btn-social("ie",             '\f26b', #0066FF        );
+@include btn-social("edge",             '\f282',#0078d7        );
+@include btn-social("chrome",             '\f268', #4c8bf5        );
+@include btn-social("safari",             '\f267',#006cff);
+@include btn-social("suse",             '\f7d6', #73BA25        );
+@include btn-social("redhat",             '\f7bc', #CC0000        );
+@include btn-social("ubuntu",             '\f7df', #dd4814        );
+@include btn-social("centos",             '\f789', #212078        );
+@include btn-social("octopus",             '\e082', #106aab        );
+@include btn-social("docker",             '\f395', #0db7ed, #FFF);
 
 // Gradient icons
 @include btn-social("facebook-alt",          '\f09a', [#3b5998, #2f477a], #FFF, linear-gradient, to bottom);
@@ -86,3 +99,5 @@
 @include btn-social("whatsapp-alt",          '\f232', [#61fd7c, #07b826], #FFF, linear-gradient, to bottom);
 @include btn-social("facebook-messenger-alt",          '\f232', [#008dff, #d02dda, #ff5864], #FFF, linear-gradient, 120deg);
 @include btn-social("skype-alt",          '\f232', [#017cd6, #00a1d4], #FFF, linear-gradient, 120deg);
+
+@include btn-social("ubuntu-alt",             '\f7df', [#dd4814, #77216f], #FFF, linear-gradient, 45deg        );
