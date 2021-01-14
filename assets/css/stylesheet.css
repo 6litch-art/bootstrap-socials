@@ -171,14 +171,20 @@ footer a:hover {
     padding: 0 10px;
 }
 
-.social-class1 .social-hex, .social-class2 .social-hex, .social-class3 .social-hex {
+.social-class .social-hex,
+.social-class1 .social-hex,
+.social-class2 .social-hex,
+.social-class3 .social-hex {
     font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
     font-size: 10px;
     opacity: .3;
     float: right
 }
 
-.social-class1 li,.social-class2 li,.social-class3 li {
+.social-class li,
+.social-class1 li,
+.social-class2 li,
+.social-class3 li {
     margin-bottom: 4px
 }
 
@@ -269,7 +275,7 @@ pre code {
   overflow-y: scroll;
 }
 
-#dock0 { position:relative; top:-50px; min-height: 100px; }
+#dock0 { position:relative; top:-20px; min-height: 100px; }
 #dock0 .btn-social,      #dock0 .btn-social-circle,
 #dock0 .btn-social-icon, #dock0 .btn-social-icon-circle { margin-right: -25px; left: -25px; }
 #dock1 { position:relative; width:90%; }
@@ -281,3 +287,11 @@ pre code {
 #dock3 { position:relative; width:90%; }
 #dock3 .btn-social, #dock3 .btn-social-circle,
 #dock3 .btn-social-icon, #dock3 .btn-social-icon-circle{ margin-bottom: -15px; top: -15px; }
+
+.social-sizes .btn-block,
+.social-sizes1 .btn-block,
+.social-sizes2 .btn-block,
+.social-sizes3 .btn-block
+{
+	margin-bottom:5px;
+}

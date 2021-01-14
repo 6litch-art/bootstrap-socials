@@ -12,6 +12,9 @@
 // Backports from Bootstrap 4
 @mixin button-outline-variant($primary, $secondary:#FFF, $gradient:none, $direction:0deg, $fa:none) {
 
+  @if ($primary == #FFF) { $primary: #FFFFFF; }
+
+
   $darken10: darken-list($primary, 10%);
   $darken25: darken-list($primary, 25%);
   $lighten20: lighten-list($primary, 20%);
@@ -26,6 +29,22 @@
   $darken25: nth($darken25, 1);
   $lighten20: nth($lighten20, 1);
 
+ @if( $primary == #FFFFFF) {
+
+  background-color: #ccc !important;
+  color: #ccc !important;
+  border-color: #ccc !important;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+  &:hover, &:focus {
+    border-color: #ccc !important;
+  }
+
+ } @else {
+  
   color: $secondary !important;
   border-color: $primary !important;
   background-color: $primary !important;
@@ -35,6 +54,8 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 
+  }
+
   &:hover {
     color: $secondary !important;
     background: $gradientPrimary !important;
@@ -42,7 +63,6 @@
     -moz-background-clip: unset;
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
-    border-color: $primary !important;
   }
 
   &:focus,
@@ -53,7 +73,6 @@
     -moz-background-clip: unset;
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
-    border-color: $primary !important;
   }
 
   &:active,
@@ -65,7 +84,6 @@
     -moz-background-clip: unset;
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
-    border-color: $primary !important;
   }
 
   &.disabled,
@@ -82,6 +100,18 @@
   }
 
   // Font awesome icon
+@if( $primary == #FFFFFF) {
+
+  & [class*="fa-"]:before {
+    background-color: #ccc !important;
+    background-image: #ccc !important;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+ } @else {
   & [class*="fa-"]:before {
     background-color: $primary !important;
     background-image: $gradientPrimary !important;
@@ -90,7 +120,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
   }
-
+}
   &:hover [class*="fa-"]:before {
     color: $secondary !important;
 

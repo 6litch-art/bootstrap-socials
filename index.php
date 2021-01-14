@@ -94,82 +94,88 @@ krsort($classics);
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Social Buttons for Bootstrap</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://assets.glitchr.io/bootstrap/4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.css">
-    <link rel="stylesheet" href="https://assets.glitchr.io/fonts/FontAwesome/5.15.1/css/all.min.css">
+  <title>Social Buttons for Bootstrap</title>
 
-    <link rel="stylesheet" href="assets/css/stylesheet-socials.css">
-    <link rel="stylesheet" href="assets/css/stylesheet-gitlab.css">
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
+  <link rel="stylesheet" href="https://assets.glitchr.io/bootstrap/5.0.0-b1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.css">
+  <link rel="stylesheet" href="https://assets.glitchr.io/fonts/FontAwesome/5.15.1/css/all.min.css">
 
-    <script src="https://assets.glitchr.io/jquery/jquery-3.5.1.min.js"></script>
-    <script src="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.js"></script>
-    <script src="https://assets.glitchr.io/bootstrap/4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="assets/css/stylesheet-socials.css">
+  <link rel="stylesheet" href="assets/css/stylesheet-gitlab.css">
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
 
-    <!-- List of icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://assets.glitchr.io/ico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://assets.glitchr.io/ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://assets.glitchr.io/ico/favicon-16x16.png">
-    <link rel="manifest" href="https://assets.glitchr.io/ico/site.webmanifest">
-    <link rel="mask-icon" href="https://assets.glitchr.io/ico/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="https://assets.glitchr.io/ico/favicon.ico">
-    <meta name="msapplication-TileColor" content="#603cba">
-    <meta name="msapplication-config" content="https://assets.glitchr.io/ico/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+  <script src="https://assets.glitchr.io/jquery/jquery-3.5.1.min.js"></script>
+  <script src="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.js"></script>
+  <script src="https://assets.glitchr.io/bootstrap/5.0.0-b1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4EDJX6N3YE"></script>
-  </head>
+  <!-- List of icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://assets.glitchr.io/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://assets.glitchr.io/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://assets.glitchr.io/ico/favicon-16x16.png">
+  <link rel="manifest" href="https://assets.glitchr.io/ico/site.webmanifest">
+  <link rel="mask-icon" href="https://assets.glitchr.io/ico/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="https://assets.glitchr.io/ico/favicon.ico">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-config" content="https://assets.glitchr.io/ico/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
-  <body>
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Social Buttons for Bootstrap</h1>
-        <p>
-          Social Sign-In Buttons made in pure CSS based on
-          <a href="https://getbootstrap.com/">Bootstrap</a> and
-          <a href="https://fortawesome.github.io/Font-Awesome/">Font Awesome</a>!
-        </p>
-        <a href="https://gitlab.glitchr.io/bootstrap-social" class="btn btn-outline btn-lg"><i style=" vertical-align: middle;" class="fa-fw fab fa-2x fa-gitlab"></i> View on GitLab</a>
-        <a href="https://gitlab.glitchr.io/bootstrap-social/archive/gh-pages.zip" class="btn btn-outline btn-lg"><i style=" vertical-align: middle;" class="fa-fw fas fa-2x fa-download"></i> Download</a>
-        <ul class="jumbotron-links">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4EDJX6N3YE"></script>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Social Buttons for Bootstrap</h1>
+      <p>
+        Social Sign-In Buttons made in pure CSS based on
+        <a href="https://getbootstrap.com/">Bootstrap</a> and
+        <a href="https://fortawesome.github.io/Font-Awesome/">Font Awesome</a>!
+      </p>
+      <a href="https://gitlab.glitchr.io/bootstrap-social" class="btn btn-outline btn-lg"><i
+          style=" vertical-align: middle;" class="fa-fw fab fa-2x fa-gitlab"></i> View on GitLab</a>
+      <a href="https://gitlab.glitchr.io/bootstrap-social/archive/gh-pages.zip" class="btn btn-outline btn-lg"><i
+          style=" vertical-align: middle;" class="fa-fw fas fa-2x fa-download"></i> Download</a>
+      <ul class="jumbotron-links">
+      </ul>
+    </div>
+    <div class="bottom">
+      <p>Original idea by <a href="https://twitter.com/lipis">@lipis</a> extended by <a
+          href="https://twitter.com/kzl____">@kzl____</a></p>
+    </div>
+  </div>
+
+  <?php
+
+        array_walk($bookmarks, function(&$social, $code) {
+
+          list($faCode, $color,$name) = $social;
+          $social = "<li class=\"btn btn-social-icon-circle btn-lg btn-color-".$code."\"><i class=\"".$faCode."\"></i></li>";
+        });
+
+  ?>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <ul id="dock0" class="d-flex flex-row-reverse align-items-center justify-content-center">
+          <?php foreach($bookmarks as $bookmark) echo $bookmark; ?>
         </ul>
       </div>
-      <div class="bottom">
-        <p>Original idea by <a href="https://twitter.com/lipis">@lipis</a> extended by <a href="https://twitter.com/kzl____">@kzl____</a></p>
-      </div>
     </div>
 
-<?php
-
-    array_walk($bookmarks, function(&$social, $code) {
-
-      list($faCode, $color,$name) = $social;
-      $social = "<li class=\"btn btn-social-icon-circle btn-lg btn-color-".$code."\"><i class=\"".$faCode."\"></i></li>";
-    });
-
-?>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <ul id="dock0" class="d-flex flex-row-reverse align-items-center justify-content-center">
-	        <?php foreach($bookmarks as $bookmark) echo $bookmark; ?>
-          </ul>
-        </div>
-    </div>
-
-        <div class="how-to" id="how-to">
+    <div class="how-to" id="how-to">
       <div class="container">
         <div class="row">
           <div class="col-md-auto">
-              <hr>
-            <h2><a href="#how-to"><i style="font-size:32pt" class="fa-fw fas fa-parachute-box"></i></a> How to get them ?</h2>
+            <hr>
+            <h2><a href="#how-to"><i style="font-size:32pt" class="fa-fw fas fa-parachute-box"></i></a> How to get them
+              ?</h2>
             <ol>
               <li>
                 Include Bootstrap and Font Awesome
@@ -201,7 +207,8 @@ krsort($classics);
                 <pre>
   &lt;button class=&quot;btn <strong class="text-danger">btn-social-icon</strong> <strong class="text-info">btn-outline-twitter</strong>&quot;&gt;&lt;/button&gt;</pre>
                 <p>
-                  You can also tune them by removing the icon, keeping the color and custom buttons as you do with FontAwesome!
+                  You can also tune them by removing the icon, keeping the color and custom buttons as you do with
+                  FontAwesome!
                 </p>
                 <pre>
   &lt;button class=&quot;btn <strong class="text-danger">btn-social-icon</strong> <strong class="text-info">[btn-color-twitter|btn-outline-color-twitter]</strong>&quot;&gt;
@@ -218,16 +225,19 @@ krsort($classics);
               <li>
                 How to get more buttons ?
                 <p>
-                  First, download the source files on GitLab. Add new icons by generating a new stylesheet using SASS and converting stylesheet-socials.scss after adding new entries at the end of the file.
-                  Additionally the script get-fontawesome.sh will help you finding the unicode of the icon you are looking for.
+                  First, download the source files on GitLab. Add new icons by generating a new stylesheet using SASS
+                  and converting stylesheet-socials.scss after adding new entries at the end of the file.
+                  Additionally the script get-fontawesome.sh will help you finding the unicode of the icon you are
+                  looking for.
                 </p>
-<pre>  git clone gitlab@gitlab.glitchr.io/bootstrap-socials.git
+                <pre>  git clone gitlab@gitlab.glitchr.io/bootstrap-socials.git
   cd bootstrap-socials
   nano assets/scss/stylesheet-socials.css # Make your changes here
   make
 </pre>
-          <p>Additionally the script ./get-fontawesome.sh will help you finding the unicode of the icon you are looking for.</p>
-<pre>  ./get-fontawesome.sh       <strong class="text-info"># Get the list of the currently referenced icons</strong>
+                <p>Additionally the script ./get-fontawesome.sh will help you finding the unicode of the icon you are
+                  looking for.</p>
+                <pre>  ./get-fontawesome.sh       <strong class="text-info"># Get the list of the currently referenced icons</strong>
   ./get-fontawesome.sh smile <strong class="text-info"># Get the "smile" icon</strong>
 </pre>
               </li>
@@ -237,7 +247,7 @@ krsort($classics);
       </div>
     </div>
 
-<?php
+    <?php
 
 $block1 = array_merge(array(), $gradients);
 array_walk($block1, function(&$social, $code) {
@@ -272,12 +282,12 @@ array_walk($block4, function(&$social, $code) {
   list($faCode, $color,$name) = $social;
 
   $social =
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-color-".$code."\"               ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-outline-color-".$code."\"       ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-    "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>";
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-color-".$code."\"               ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-outline-color-".$code."\"       ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+    "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>";
 
 });
 
@@ -320,7 +330,7 @@ $random_index = array_keys($gradients )[random_int(0,count($gradients)-1)];
         <div class="col-md-12">
           <hr>
           <h2><a href="#gradient"><i class="fa-fw fab fa-slack-hash"></i></a>Gradient Style</h2>
-          <br/><br/>
+          <br /><br />
         </div>
       </div>
     </div>
@@ -329,16 +339,16 @@ $random_index = array_keys($gradients )[random_int(0,count($gradients)-1)];
       <div class="row">
         <div class="col-sm-4 social-buttons">
           <h3 class="text-center">All buttons</h3>
-          <br/>
-	        <ul id="dock1" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
+          <br />
+          <ul id="dock1" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
         </div>
 
         <div class="col-sm-4">
           <h3 class="text-center">Available classes</h3>
-          <br/>
+          <br />
 
           <ul class="social-class1 d-flex flex-column-reverse list-unstyled">
-	        <?php foreach($block3 as $block) echo $block; ?>
+            <?php foreach($block3 as $block) echo $block; ?>
           </ul>
         </div>
 
@@ -346,22 +356,20 @@ $random_index = array_keys($gradients )[random_int(0,count($gradients)-1)];
           <div class="social-sizes1">
 
             <h3 class="text-center">Different sizes & styles</h3>
-            <br/>
+            <br />
 
-            <div class="text-center">
               <?php echo $block4[$random_index]; ?>
+            <hr>
+
+            <div class="text-center">
+              <p>You can use the badge style..</p>
+              <?php echo $block5[$random_index]; ?>
             </div>
             <hr>
 
             <div class="text-center">
-		        <p>You can use the badge style..</p>
-            <?php echo $block5[$random_index]; ?>
-            </div>
-            <hr>
-
-            <div class="text-center">
-            <p>.. or also tune them with your own icon or text</p>
-		        <?php echo $block6[$random_index]; ?>
+              <p>.. or also tune them with your own icon or text</p>
+              <?php echo $block6[$random_index]; ?>
             </div>
           </div>
 
@@ -374,7 +382,7 @@ $random_index = array_keys($gradients )[random_int(0,count($gradients)-1)];
 
 
 
-<?php
+    <?php
 
 
 $block1 = array_merge(array(), $classics);
@@ -410,12 +418,12 @@ array_walk($block4, function(&$social, $code) {
   list($faCode, $color,$name) = $social;
 
   $social =
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-lg btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-color-".$code."\"               ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-outline-color-".$code."\"       ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-sm btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-    "<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>";
+		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-lg btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-color-".$code."\"               ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-outline-color-".$code."\"       ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-sm btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+    "<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>";
 
 });
 
@@ -458,8 +466,8 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
       <div class="row">
         <div class="col-md-12">
           <hr>
-          <h2 ><a href="#circle"><i class="fa-fw fab fa-slack-hash"></i></a>Circle Style</h2>
-          <br/><br/>
+          <h2><a href="#circle"><i class="fa-fw fab fa-slack-hash"></i></a>Circle Style</h2>
+          <br /><br />
         </div>
       </div>
     </div>
@@ -468,16 +476,16 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
       <div class="row">
         <div class="col-sm-4 social-buttons">
           <h3 class="text-center">All buttons</h3>
-          <br/>
-	        <ul id="dock2" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
+          <br />
+          <ul id="dock2" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
         </div>
 
         <div class="col-sm-4">
           <h3 class="text-center">Available classes</h3>
-          <br/>
+          <br />
 
           <ul class="social-class2 d-flex flex-column-reverse list-unstyled">
-	        <?php foreach($block3 as $block) echo $block; ?>
+            <?php foreach($block3 as $block) echo $block; ?>
           </ul>
         </div>
 
@@ -485,22 +493,22 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
           <div class="social-sizes2">
 
             <h3 class="text-center">Different sizes & styles</h3>
-            <br/>
+            <br />
 
-            <div class="text-center">
+            <div>
               <?php echo $block4[$random_index]; ?>
             </div>
             <hr>
 
             <div class="text-center">
-		        <p>You can use the badge style..</p>
-            <?php echo $block5[$random_index]; ?>
+              <p>You can use the badge style..</p>
+              <?php echo $block5[$random_index]; ?>
             </div>
             <hr>
 
             <div class="text-center">
-            <p>.. or also tune them with your own icon or text</p>
-		        <?php echo $block6[$random_index]; ?>
+              <p>.. or also tune them with your own icon or text</p>
+              <?php echo $block6[$random_index]; ?>
             </div>
           </div>
 
@@ -510,7 +518,7 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
 
 
 
-<?php
+    <?php
 
 
 $block1 = array_merge(array(), $classics);
@@ -546,12 +554,12 @@ array_walk($block4, function(&$social, $code) {
   list($faCode, $color,$name) = $social;
 
   $social =
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-color-".$code."\"               ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-outline-color-".$code."\"       ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>".
-    "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button>";
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-color-".$code."\"               ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-outline-color-".$code."\"       ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+		"<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
+    "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>";
 
 });
 
@@ -594,8 +602,8 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
       <div class="row">
         <div class="col-md-12">
           <hr>
-          <h2 ><a href="#classic"><i class="fa-fw fab fa-slack-hash"></i></a>Classic Style</h2>
-          <br/><br/>
+          <h2><a href="#classic"><i class="fa-fw fab fa-slack-hash"></i></a>Classic Style</h2>
+          <br /><br />
         </div>
       </div>
     </div>
@@ -604,16 +612,16 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
       <div class="row">
         <div class="col-sm-4 social-buttons">
           <h3 class="text-center">All buttons</h3>
-          <br/>
-	        <ul id="dock3" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
+          <br />
+          <ul id="dock3" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
         </div>
 
         <div class="col-sm-4">
           <h3 class="text-center">Available classes</h3>
-          <br/>
+          <br />
 
           <ul class="social-class3 d-flex flex-column-reverse list-unstyled">
-	        <?php foreach($block3 as $block) echo $block; ?>
+            <?php foreach($block3 as $block) echo $block; ?>
           </ul>
         </div>
 
@@ -621,22 +629,22 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
           <div class="social-sizes3">
 
             <h3 class="text-center">Different sizes & styles</h3>
-            <br/>
+            <br />
 
-            <div class="text-center">
-              <?php echo $block4[$random_index]; ?>
+            <div>
+              <?php echo $block4["youtube"/*$random_index*/]; ?>
             </div>
             <hr>
 
             <div class="text-center">
-		        <p>You can use the badge style..</p>
-            <?php echo $block5[$random_index]; ?>
+              <p>You can use the badge style..</p>
+              <?php echo $block5["youtube"/*$random_index*/]; ?>
             </div>
             <hr>
 
             <div class="text-center">
-            <p>.. or also tune them with your own icon or text</p>
-		        <?php echo $block6[$random_index]; ?>
+              <p>.. or also tune them with your own icon or text</p>
+              <?php echo $block6["youtube"/*$random_index*/]; ?>
             </div>
           </div>
 
@@ -646,31 +654,84 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
 
 
 
-    </div>
-    <footer>
-      <ul class="links">
-        <li><a href="https://gitlab.glitchr.io"><i class="fab fa-gitlab"></i> GitLab</a></li>
-        <li><a href="https://twitter.com/KZL____"><i class="fab fa-twitter"></i> Twitter</a></li>
-        <li><a href="https://www.buymeacoffee.com/kzl0"><i class="fas fa-coffee"></i> Coffee</a></li>
-      </ul>
-    </footer>
+  </div>
+  <footer>
+    <ul class="links">
+      <li><a href="https://gitlab.glitchr.io"><i class="fab fa-gitlab"></i> GitLab</a></li>
+      <li><a href="https://twitter.com/KZL____"><i class="fab fa-twitter"></i> Twitter</a></li>
+      <li><a href="https://www.buymeacoffee.com/kzl0"><i class="fas fa-coffee"></i> Coffee</a></li>
+    </ul>
+  </footer>
 
-    <div class="gitlab-corner-wrapper"><a href="https://gitlab.glitchr.io" class="gitlab-corner" aria-label="View source on GitLab">
-      <svg id="logo_art" data-name="logo art" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 586 559"><g id="g44"><path id="path46" class="cls-1" d="M461.17,301.83l-18.91-58.12L404.84,128.43a6.47,6.47,0,0,0-12.27,0L355.15,243.64H230.82L193.4,128.43a6.46,6.46,0,0,0-12.26,0L143.78,243.64l-18.91,58.19a12.88,12.88,0,0,0,4.66,14.39L293,435,456.44,316.22a12.9,12.9,0,0,0,4.73-14.39"/></g><g id="g48"><path id="path50" class="cls-2" d="M293,434.91h0l62.16-191.28H230.87L293,434.91Z"/></g><g id="g56"><path id="path58" class="cls-1" d="M293,434.91,230.82,243.63h-87L293,434.91Z"/></g><g id="g64"><path id="path66" class="cls-3" d="M143.75,243.69h0l-18.91,58.12a12.88,12.88,0,0,0,4.66,14.39L293,435,143.75,243.69Z"/></g><g id="g72"><path id="path74" class="cls-2" d="M143.78,243.69h87.11L193.4,128.49a6.47,6.47,0,0,0-12.27,0l-37.35,115.2Z"/></g><g id="g76"><path id="path78" class="cls-1" d="M293,434.91l62.16-191.28H442.3L293,434.91Z"/></g><g id="g80"><path id="path82" class="cls-3" d="M442.24,243.69h0l18.91,58.12a12.85,12.85,0,0,1-4.66,14.39L293,434.91l149.2-191.22Z"/></g><g id="g84"><path id="path86" class="cls-2" d="M442.28,243.69h-87.1l37.42-115.2a6.46,6.46,0,0,1,12.26,0l37.42,115.2Z"/></g></svg>
+  <div class="gitlab-corner-wrapper"><a href="https://gitlab.glitchr.io" class="gitlab-corner"
+      aria-label="View source on GitLab">
+      <svg id="logo_art" data-name="logo art" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 586 559">
+        <g id="g44">
+          <path id="path46" class="cls-1"
+            d="M461.17,301.83l-18.91-58.12L404.84,128.43a6.47,6.47,0,0,0-12.27,0L355.15,243.64H230.82L193.4,128.43a6.46,6.46,0,0,0-12.26,0L143.78,243.64l-18.91,58.19a12.88,12.88,0,0,0,4.66,14.39L293,435,456.44,316.22a12.9,12.9,0,0,0,4.73-14.39" />
+        </g>
+        <g id="g48">
+          <path id="path50" class="cls-2" d="M293,434.91h0l62.16-191.28H230.87L293,434.91Z" />
+        </g>
+        <g id="g56">
+          <path id="path58" class="cls-1" d="M293,434.91,230.82,243.63h-87L293,434.91Z" />
+        </g>
+        <g id="g64">
+          <path id="path66" class="cls-3"
+            d="M143.75,243.69h0l-18.91,58.12a12.88,12.88,0,0,0,4.66,14.39L293,435,143.75,243.69Z" />
+        </g>
+        <g id="g72">
+          <path id="path74" class="cls-2" d="M143.78,243.69h87.11L193.4,128.49a6.47,6.47,0,0,0-12.27,0l-37.35,115.2Z" />
+        </g>
+        <g id="g76">
+          <path id="path78" class="cls-1" d="M293,434.91l62.16-191.28H442.3L293,434.91Z" />
+        </g>
+        <g id="g80">
+          <path id="path82" class="cls-3"
+            d="M442.24,243.69h0l18.91,58.12a12.85,12.85,0,0,1-4.66,14.39L293,434.91l149.2-191.22Z" />
+        </g>
+        <g id="g84">
+          <path id="path86" class="cls-2" d="M442.28,243.69h-87.1l37.42-115.2a6.46,6.46,0,0,1,12.26,0l37.42,115.2Z" />
+        </g>
+      </svg>
     </a></div>
 
-    <!-- Some JavaScript that is used only in this demo, not needed for the buttons -->
-    <script src="assets/js/index.js"></script>
+  <!-- Some JavaScript that is used only in this demo, not needed for the buttons -->
+  <script src="assets/js/index.js"></script>
 
-    <script src="assets/js/dock.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('#dock0 li').resizeOnApproach({y:0, split:1, zoom: 2, jump:-2, trigger: 1});
-        $('#dock1 li').resizeOnApproach({y:1, split:15, zoom: 1.10, jump:-2, trigger: 1});
-        $('#dock2 li').resizeOnApproach({y:1, split:15, zoom: 1.10, jump:-2, trigger: 1});
-        $('#dock3 li').resizeOnApproach({y:1, split:15, zoom: 1.10, jump:-2, trigger: 1});
+  <script src="assets/js/dock.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#dock0 li').resizeOnApproach({
+        y: 0,
+        split: 1,
+        zoom: 2,
+        jump: -2,
+        trigger: 1
       });
+      $('#dock1 li').resizeOnApproach({
+        y: 1,
+        split: 15,
+        zoom: 1.10,
+        jump: -2,
+        trigger: 1
+      });
+      $('#dock2 li').resizeOnApproach({
+        y: 1,
+        split: 15,
+        zoom: 1.10,
+        jump: -2,
+        trigger: 1
+      });
+      $('#dock3 li').resizeOnApproach({
+        y: 1,
+        split: 15,
+        zoom: 1.10,
+        jump: -2,
+        trigger: 1
+      });
+    });
+  </script>
+</body>
 
-    </script>
-  </body>
 </html>
