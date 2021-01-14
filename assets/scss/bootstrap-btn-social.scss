@@ -141,14 +141,19 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
   .btn-lg {
     &.btn-#{$name}:before,
     &.btn-outline-#{$name}:before {
-      font-size:2.2em;
+      line-height: $bs-height-lg;
+      width: $bs-height-lg;
+      font-size: 1.6em;
     }
   }
 
   .btn-sm {
     &.btn-#{$name}:before,
     &.btn-outline-#{$name}:before {
-      font-size:0.9em;
+
+      line-height: $bs-height-sm;
+      width: $bs-height-sm;
+      font-size: 1em;
     }
   }
 }

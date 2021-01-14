@@ -632,19 +632,19 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
             <br />
 
             <div>
-              <?php echo $block4["youtube"/*$random_index*/]; ?>
+              <?php echo $block4[$random_index]; ?>
             </div>
             <hr>
 
             <div class="text-center">
               <p>You can use the badge style..</p>
-              <?php echo $block5["youtube"/*$random_index*/]; ?>
+              <?php echo $block5[$random_index]; ?>
             </div>
             <hr>
 
             <div class="text-center">
               <p>.. or also tune them with your own icon or text</p>
-              <?php echo $block6["youtube"/*$random_index*/]; ?>
+              <?php echo $block6[$random_index]; ?>
             </div>
           </div>
 

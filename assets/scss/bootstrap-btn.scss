@@ -16,8 +16,6 @@
   $bkgHover: gradient($gradient, $direction, $darken10);
   $bkgClick: gradient($gradient, $direction, $darken17);
 
-  //@debug $bkg $bkgHover $bkgClick;
-
   color: $fontColor !important;
   background: $bkg;
   border-color: darken($secondary, 10%) !important;
