@@ -19414,71 +19414,71 @@
 
 .btn-apple-alt {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%);
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%);
   border-color: #879195 !important;
 }
 .btn-apple-alt:focus, .btn-apple-alt.focus {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   border-color: #616b6e !important;
 }
 .btn-apple-alt:hover {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   border-color: #818c90 !important;
 }
 .btn-apple-alt:active, .btn-apple-alt.active, .open > .btn-apple-alt.dropdown-toggle {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   background-image: none;
   border-color: #818c90 !important;
 }
 .btn-apple-alt:active:hover, .btn-apple-alt:active:focus, .btn-apple-alt:active.focus, .btn-apple-alt.active:hover, .btn-apple-alt.active:focus, .btn-apple-alt.active.focus, .open > .btn-apple-alt.dropdown-toggle:hover, .open > .btn-apple-alt.dropdown-toggle:focus, .open > .btn-apple-alt.dropdown-toggle.focus {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   border-color: #616b6e !important;
 }
 .btn-apple-alt.disabled:hover, .btn-apple-alt.disabled:focus, .btn-apple-alt.disabled.focus, .btn-apple-alt[disabled]:hover, .btn-apple-alt[disabled]:focus, .btn-apple-alt[disabled].focus, fieldset[disabled] .btn-apple-alt:hover, fieldset[disabled] .btn-apple-alt:focus, fieldset[disabled] .btn-apple-alt.focus {
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   border-color: #A2AAAD !important;
 }
 .btn-apple-alt .badge {
-  color: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  color: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   background: #FFF !important;
 }
 
 .btn-color-apple-alt {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%);
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%);
   border-color: #879195 !important;
 }
 .btn-color-apple-alt:focus, .btn-color-apple-alt.focus {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   border-color: #616b6e !important;
 }
 .btn-color-apple-alt:hover {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   border-color: #818c90 !important;
 }
 .btn-color-apple-alt:active, .btn-color-apple-alt.active, .open > .btn-color-apple-alt.dropdown-toggle {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   background-image: none;
   border-color: #818c90 !important;
 }
 .btn-color-apple-alt:active:hover, .btn-color-apple-alt:active:focus, .btn-color-apple-alt:active.focus, .btn-color-apple-alt.active:hover, .btn-color-apple-alt.active:focus, .btn-color-apple-alt.active.focus, .open > .btn-color-apple-alt.dropdown-toggle:hover, .open > .btn-color-apple-alt.dropdown-toggle:focus, .open > .btn-color-apple-alt.dropdown-toggle.focus {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   border-color: #616b6e !important;
 }
 .btn-color-apple-alt.disabled:hover, .btn-color-apple-alt.disabled:focus, .btn-color-apple-alt.disabled.focus, .btn-color-apple-alt[disabled]:hover, .btn-color-apple-alt[disabled]:focus, .btn-color-apple-alt[disabled].focus, fieldset[disabled] .btn-color-apple-alt:hover, fieldset[disabled] .btn-color-apple-alt:focus, fieldset[disabled] .btn-color-apple-alt.focus {
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   border-color: #A2AAAD !important;
 }
 .btn-color-apple-alt .badge {
-  color: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  color: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   background: #FFF !important;
 }
 
@@ -19486,7 +19486,7 @@
   color: #FFF !important;
   border-color: #A2AAAD !important;
   background-color: #A2AAAD !important;
-  background-image: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background-image: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19494,7 +19494,7 @@
 }
 .btn-outline-apple-alt:hover {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
@@ -19502,7 +19502,7 @@
 }
 .btn-outline-apple-alt:focus, .btn-outline-apple-alt.focus {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
@@ -19510,7 +19510,7 @@
 }
 .btn-outline-apple-alt:active, .btn-outline-apple-alt.active, .open > .btn-outline-apple-alt.dropdown-toggle {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
@@ -19524,7 +19524,7 @@
 }
 .btn-outline-apple-alt [class*=fa-]:before {
   background-color: #A2AAAD !important;
-  background-image: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background-image: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19559,7 +19559,7 @@
   color: #FFF !important;
   border-color: #A2AAAD !important;
   background-color: #A2AAAD !important;
-  background-image: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background-image: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19567,7 +19567,7 @@
 }
 .btn-outline-color-apple-alt:hover {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
@@ -19575,7 +19575,7 @@
 }
 .btn-outline-color-apple-alt:focus, .btn-outline-color-apple-alt.focus {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
@@ -19583,7 +19583,7 @@
 }
 .btn-outline-color-apple-alt:active, .btn-outline-color-apple-alt.active, .open > .btn-outline-color-apple-alt.dropdown-toggle {
   color: #FFF !important;
-  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: unset;
   -moz-background-clip: unset;
   -webkit-text-fill-color: unset;
@@ -19597,7 +19597,7 @@
 }
 .btn-outline-color-apple-alt [class*=fa-]:before {
   background-color: #A2AAAD !important;
-  background-image: linear-gradient(to bottom, #70c25c 0%, #70c25c 15%, #ffc04a 15%, #ffc04a 30%, #fc903d 30%, #fc903d 45%, #e94752 45%, #e94752 60%, #a954a5 60%, #a954a5 75%, #00afe0 75%, #00afe0 100%) !important;
+  background-image: linear-gradient(to bottom, #70c25c 0%, #70c25c 16.5%, #ffc04a 16.5%, #ffc04a 33%, #fc903d 33%, #fc903d 50%, #e94752 50%, #e94752 66.6%, #a954a5 66.6%, #a954a5 83%, #00afe0 83%, #00afe0 100%) !important;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
