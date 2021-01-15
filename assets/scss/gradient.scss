@@ -69,10 +69,9 @@
 	  @if length($color) == 4 {
 	    @return linear-gradient($direction, nth($color,1) 0%, nth($color,2) 33%, nth($color,3) 66%, nth($color,4) 99%);
 	  }
-  }
-
-  @if $type == radial-gradient { 
-   
+ 
+  } @else if $type == radial-gradient { 
+  
 	  @if length($color) == 2 {
 	    @return radial-gradient($direction, nth($color,1) 0%, nth($color,2) 100%);
 	  }
@@ -84,6 +83,10 @@
 	  @if length($color) == 4 {
 	    @return radial-gradient($direction, nth($color,1) 0%, nth($color,2) 33%, nth($color,3) 66%, nth($color,4) 99%);
 	  }
+  
+  } @else if $type != none {
+
+	@return $type;
   }
 
 

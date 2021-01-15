@@ -15,7 +15,8 @@ $bookmarks = [
     "whatsapp-alt"        => ["fab fa-fw fa-whatsapp"       , "#07b826",  "WhatsApp"],
     "facebook-messenger-alt"        => ["fab fa-fw fa-facebook-messenger"       , "#008dff",  "Messenger"],
     "skype-alt"        => ["fab fa-fw fa-skype"       , "#017cd6",  "Skype"],
-    "ubuntu-alt"        => ["fab fa-fw fa-ubuntu"       , "#dd4814",  "Ubuntu"]
+    "ubuntu-alt"        => ["fab fa-fw fa-ubuntu"       , "#dd4814",  "Ubuntu"],
+    "apple-alt"          => ["fab fa-fw fa-apple"         , "#A2AAAD",  "Apple"],
 ];
 $gradients = array_merge(array(),$bookmarks);
 krsort($gradients);
