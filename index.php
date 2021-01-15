@@ -137,9 +137,9 @@ krsort($classics);
         <a href="https://getbootstrap.com/">Bootstrap</a> and
         <a href="https://fortawesome.github.io/Font-Awesome/">Font Awesome</a>!
       </p>
-      <a href="https://gitlab.glitchr.io/bootstrap-social" class="btn btn-outline btn-lg"><i
+      <a href="https://gitlab.glitchr.io/KZL/bootstrap-socials" class="btn btn-outline btn-lg"><i
           style=" vertical-align: middle;" class="fa-fw fab fa-2x fa-gitlab"></i> View on GitLab</a>
-      <a href="https://gitlab.glitchr.io/bootstrap-social/archive/gh-pages.zip" class="btn btn-outline btn-lg"><i
+      <a href="https://gitlab.glitchr.io/KZL/bootstrap-socials/-/archive/master/bootstrap-socials-master.zip" class="btn btn-outline btn-lg"><i
           style=" vertical-align: middle;" class="fa-fw fas fa-2x fa-download"></i> Download</a>
       <ul class="jumbotron-links">
       </ul>
@@ -230,7 +230,7 @@ krsort($classics);
                   Additionally the script get-fontawesome.sh will help you finding the unicode of the icon you are
                   looking for.
                 </p>
-                <pre>  git clone gitlab@gitlab.glitchr.io/bootstrap-socials.git
+                <pre>  git clone gitlab@gitlab.glitchr.io/KZL/bootstrap-socials.git
   cd bootstrap-socials
   nano assets/scss/stylesheet-socials.css # Make your changes here
   make
@@ -711,21 +711,21 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
       });
       $('#dock1 li').resizeOnApproach({
         y: 1,
-        split: 15,
+        split: 12.5,
         zoom: 1.10,
         jump: -2,
         trigger: 1
       });
       $('#dock2 li').resizeOnApproach({
         y: 1,
-        split: 15,
+        split: 12.5,
         zoom: 1.10,
         jump: -2,
         trigger: 1
       });
       $('#dock3 li').resizeOnApproach({
         y: 1,
-        split: 15,
+        split: 12.5,
         zoom: 1.10,
         jump: -2,
         trigger: 1
