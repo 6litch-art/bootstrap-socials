@@ -35,7 +35,7 @@ h2 a {
 .jumbotron h1 {
     margin-bottom: 15px;
     font-weight: 300;
-    font-size: 63px;
+    padding-top: 3em;
     letter-spacing: -1px;
     color: #fff
 }

@@ -14,7 +14,6 @@
 
   @if ($primary == #FFF) { $primary: #FFFFFF; }
 
-
   $darken10: darken-list($primary, 10%);
   $darken25: darken-list($primary, 25%);
   $lighten20: lighten-list($primary, 20%);
@@ -31,13 +30,17 @@
 
  @if( $primary == #FFFFFF) {
 
-  background-color: #ccc !important;
   color: #ccc !important;
   border-color: #ccc !important;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+
+  @supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
+
+            background-color: #ccc !important;
+	    -webkit-background-clip: text;
+	    -moz-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+	    -moz-text-fill-color: transparent;
+  }
 
   &:hover, &:focus {
     border-color: #ccc !important;
@@ -45,45 +48,57 @@
 
  } @else {
   
-  color: $secondary !important;
+  color: $primary !important;
+  text-fill-color: $primary !important;
   border-color: $primary !important;
-  background-color: $primary !important;
-  background-image: $gradientPrimary !important;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 
+	@supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
+	  background-color: $primary !important;
+	  background-image: $gradientPrimary !important;
+	  -webkit-background-clip: text;
+	  -moz-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  -moz-text-fill-color: transparent;
+	}
   }
 
   &:hover {
     color: $secondary !important;
-    background: $gradientPrimary !important;
-    -webkit-background-clip: unset;
-    -moz-background-clip: unset;
-    -webkit-text-fill-color: unset;
-    -moz-text-fill-color: unset;
+
+	@supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
+	    background: $gradientPrimary !important;
+	    -webkit-background-clip: unset;
+	    -moz-background-clip: unset;
+	    -webkit-text-fill-color: unset;
+	    -moz-text-fill-color: unset;
+	}
   }
 
   &:focus,
   &.focus {
     color: $secondary !important;
-    background: $gradientDarken10 !important;
-    -webkit-background-clip: unset;
-    -moz-background-clip: unset;
-    -webkit-text-fill-color: unset;
-    -moz-text-fill-color: unset;
+
+	@supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
+	    background: $gradientDarken10 !important;
+	    -webkit-background-clip: unset;
+	    -moz-background-clip: unset;
+	    -webkit-text-fill-color: unset;
+	    -moz-text-fill-color: unset;
+	}
   }
 
   &:active,
   &.active,
   .open>&.dropdown-toggle {
     color: $secondary !important;
-    background: $gradientDarken10 !important;
-    -webkit-background-clip: unset;
-    -moz-background-clip: unset;
-    -webkit-text-fill-color: unset;
-    -moz-text-fill-color: unset;
+	@supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
+
+	    background: $gradientDarken10 !important;
+	    -webkit-background-clip: unset;
+	    -moz-background-clip: unset;
+	    -webkit-text-fill-color: unset;
+	    -moz-text-fill-color: unset;
+	}
   }
 
   &.disabled,
