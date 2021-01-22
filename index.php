@@ -70,7 +70,7 @@ $classics =
     "whatsapp"       => ["fab fa-fw fa-whatsapp"      , "#128C7E",  "WhatsApp"],
     "line"           => ["fab fa-fw fa-line"          , "#00B900",  "Line"],
     "yandex"         => ["fab fa-fw fa-yandex"        , "#FFCC00",  "Yandex"],
-    "youtube"        => ["fab fa-fw fa-youtube"       , "#FF0000",  "Youtube!"],
+    "youtube"        => ["fab fa-fw fa-youtube"       , "#FF0000",  "Youtube"],
     "tiktok"         => ["fab fa-fw fa-tiktok"        , "#FF0000",  "Tiktok"],
     "rss"            => ["fas fa-fw fa-rss"           , "#EE802F",  "RSS"],
     "firefox"        => ["fab fa-fw fa-firefox"       , "#be0575",  "Firefox"],
@@ -113,6 +113,8 @@ krsort($classics);
   <script src="https://assets.glitchr.io/jquery/jquery-3.5.1.min.js"></script>
   <script src="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.js"></script>
   <script src="https://assets.glitchr.io/bootstrap/5.0.0-b1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/index.js" defer></script>
+  <script src="assets/js/dock.js" defer></script>
 
   <!-- List of icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="https://assets.glitchr.io/ico/apple-touch-icon.png">
@@ -138,9 +140,9 @@ krsort($classics);
         <a href="https://getbootstrap.com/">Bootstrap</a> and
         <a href="https://fortawesome.github.io/Font-Awesome/">Font Awesome</a>!
       </p>
-      <a href="https://gitlab.glitchr.io/KZL/bootstrap-socials" class="btn btn-outline btn-lg"><i
+      <a href="https://gitlab.glitchr.io/public-repository/bootstrap-socials" class="btn btn-outline btn-lg"><i
           style=" vertical-align: middle;" class="fa-fw fab fa-2x fa-gitlab"></i> View on GitLab</a>
-      <a href="https://gitlab.glitchr.io/KZL/bootstrap-socials/-/archive/master/bootstrap-socials-master.zip" class="btn btn-outline btn-lg"><i
+      <a href="https://gitlab.glitchr.io/public-repository/bootstrap-socials/-/archive/master/bootstrap-socials-master.zip" class="btn btn-outline btn-lg"><i
           style=" vertical-align: middle;" class="fa-fw fas fa-2x fa-download"></i> Download</a>
       <ul class="jumbotron-links">
       </ul>
@@ -231,7 +233,7 @@ krsort($classics);
                   Additionally the script get-fontawesome.sh will help you finding the unicode of the icon you are
                   looking for.
                 </p>
-                <pre>  git clone gitlab@gitlab.glitchr.io/KZL/bootstrap-socials.git
+                <pre>  git clone http://gitlab.glitchr.io/public-repository/bootstrap-socials.git
   cd bootstrap-socials
   nano assets/scss/stylesheet-socials.css # Make your changes here
   make
@@ -698,9 +700,6 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
     </a></div>
 
   <!-- Some JavaScript that is used only in this demo, not needed for the buttons -->
-  <script src="assets/js/index.js"></script>
-
-  <script src="assets/js/dock.js"></script>
   <script>
     $(document).ready(function () {
       $('#dock0 li').resizeOnApproach({
