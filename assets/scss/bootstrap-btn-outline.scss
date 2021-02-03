@@ -33,7 +33,7 @@
   color: #ccc !important;
   border-color: #ccc !important;
 
-  @supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
+  @supports (background-clip: text) {
 
             background-color: #ccc !important;
 	    -webkit-background-clip: text;
@@ -52,7 +52,7 @@
   text-fill-color: $primary !important;
   border-color: $primary !important;
 
-	@supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
+	@supports (background-clip: text) {
 	  background-color: $primary !important;
 	  background-image: $gradientPrimary !important;
 	  -webkit-background-clip: text;
@@ -64,9 +64,9 @@
 
   &:hover {
     color: $secondary !important;
+    background: $gradientPrimary !important;
 
-	@supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
-	    background: $gradientPrimary !important;
+	@supports (background-clip: text) {
 	    -webkit-background-clip: unset;
 	    -moz-background-clip: unset;
 	    -webkit-text-fill-color: unset;
@@ -77,9 +77,9 @@
   &:focus,
   &.focus {
     color: $secondary !important;
+    background: $gradientDarken10 !important;
 
-	@supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
-	    background: $gradientDarken10 !important;
+	@supports (background-clip: text) {
 	    -webkit-background-clip: unset;
 	    -moz-background-clip: unset;
 	    -webkit-text-fill-color: unset;
@@ -91,7 +91,7 @@
   &.active,
   .open>&.dropdown-toggle {
     color: $secondary !important;
-	@supports (background-clip: text) and (-webkit-text-fill-color: transparent) {
+	@supports (background-clip: text) {
 
 	    background: $gradientDarken10 !important;
 	    -webkit-background-clip: unset;
