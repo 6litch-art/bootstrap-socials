@@ -128,7 +128,7 @@ krsort($classics);
   <meta name="theme-color" content="#ffffff">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4EDJX6N3YE"></script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155076989-4"></script>
 </head>
 
 <body>
