@@ -35,18 +35,24 @@
 
   @supports (background-clip: text) {
 
-            background-color: #ccc !important;
-	    -webkit-background-clip: text;
-	    -moz-background-clip: text;
-	    -webkit-text-fill-color: transparent;
-	    -moz-text-fill-color: transparent;
+    background-color: #ccc !important;  
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: $primary;
+    -moz-text-fill-color: $primary;
+    -ms-text-fill-color: $primary;
+    -o-text-fill-color: $primary;
   }
 
   &:hover, &:focus {
     border-color: #ccc !important;
   }
 
- } @else {
+} @else {
   
   color: $primary !important;
   text-fill-color: $primary !important;
@@ -55,22 +61,35 @@
 	@supports (background-clip: text) {
 	  background-color: $primary !important;
 	  background-image: $gradientPrimary !important;
-	  -webkit-background-clip: text;
-	  -moz-background-clip: text;
-	  -webkit-text-fill-color: transparent;
-	  -moz-text-fill-color: transparent;
+
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: $secondary;
+    -moz-text-fill-color: $secondary;
+    -ms-text-fill-color: $secondary;
+    -o-text-fill-color: $secondary;
 	}
-  }
+}
 
   &:hover {
     color: $secondary !important;
     background: $gradientPrimary !important;
 
 	@supports (background-clip: text) {
-	    -webkit-background-clip: unset;
-	    -moz-background-clip: unset;
-	    -webkit-text-fill-color: unset;
-	    -moz-text-fill-color: unset;
+      -webkit-background-clip: unset;
+      -moz-background-clip: unset;
+      -ms-background-clip: unset;
+      -o-background-clip: unset;
+      background-clip: unset;
+  
+      -webkit-text-fill-color: unset;
+      -moz-text-fill-color: unset;
+      -ms-text-fill-color: unset;
+      -o-text-fill-color: unset;
 	}
   }
 
@@ -80,10 +99,16 @@
     background: $gradientDarken10 !important;
 
 	@supports (background-clip: text) {
-	    -webkit-background-clip: unset;
-	    -moz-background-clip: unset;
-	    -webkit-text-fill-color: unset;
-	    -moz-text-fill-color: unset;
+      -webkit-background-clip: unset;
+      -moz-background-clip: unset;
+      -ms-background-clip: unset;
+      -o-background-clip: unset;
+      background-clip: unset;
+  
+      -webkit-text-fill-color: unset;
+      -moz-text-fill-color: unset;
+      -ms-text-fill-color: unset;
+      -o-text-fill-color: unset;
 	}
   }
 
@@ -94,10 +119,16 @@
 	@supports (background-clip: text) {
 
 	    background: $gradientDarken10 !important;
-	    -webkit-background-clip: unset;
-	    -moz-background-clip: unset;
-	    -webkit-text-fill-color: unset;
-	    -moz-text-fill-color: unset;
+      -webkit-background-clip: unset;
+      -moz-background-clip: unset;
+      -ms-background-clip: unset;
+      -o-background-clip: unset;
+      background-clip: unset;
+  
+      -webkit-text-fill-color: unset;
+      -moz-text-fill-color: unset;
+      -ms-text-fill-color: unset;
+      -o-text-fill-color: unset;
 	}
   }
 
@@ -122,8 +153,14 @@
     background-image: #ccc !important;
     -webkit-background-clip: text;
     -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
   }
 
  } @else {
@@ -132,8 +169,14 @@
     background-image: $gradientPrimary !important;
     -webkit-background-clip: text;
     -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
   }
 }
   &:hover [class*="fa-"]:before {
@@ -142,8 +185,14 @@
     background: transparent !important;
     -webkit-background-clip: unset;
     -moz-background-clip: unset;
+    -ms-background-clip: unset;
+    -o-background-clip: unset;
+    background-clip: unset;
+
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
+    -ms-text-fill-color: unset;
+    -o-text-fill-color: unset;
   }
 
   &:focus [class*="fa-"]:before,
@@ -152,8 +201,14 @@
     background: transparent !important;
     -webkit-background-clip: unset;
     -moz-background-clip: unset;
+    -ms-background-clip: unset;
+    -o-background-clip: unset;
+    background-clip: unset;
+
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
+    -ms-text-fill-color: unset;
+    -o-text-fill-color: unset;
   }
 
   &:active [class*="fa-"]:before,
@@ -163,8 +218,14 @@
     background: transparent !important;
     -webkit-background-clip: unset;
     -moz-background-clip: unset;
+    -ms-background-clip: unset;
+    -o-background-clip: unset;
+    background-clip: unset;
+
     -webkit-text-fill-color: unset;
     -moz-text-fill-color: unset;
+    -ms-text-fill-color: unset;
+    -o-text-fill-color: unset;
   }
 }
 
