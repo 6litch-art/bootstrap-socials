@@ -42,10 +42,10 @@
     -o-background-clip: text;
     background-clip: text;
 
-    -webkit-text-fill-color: $primary;
-    -moz-text-fill-color: $primary;
-    -ms-text-fill-color: $primary;
-    -o-text-fill-color: $primary;
+    -webkit-text-fill-color: $secondary;
+    -moz-text-fill-color: $secondary;
+    -ms-text-fill-color: $secondary;
+    -o-text-fill-color: $secondary;
   }
 
   &:hover, &:focus {
@@ -68,10 +68,10 @@
     -o-background-clip: text;
     background-clip: text;
 
-    -webkit-text-fill-color: $secondary;
-    -moz-text-fill-color: $secondary;
-    -ms-text-fill-color: $secondary;
-    -o-text-fill-color: $secondary;
+    -webkit-text-fill-color: $primary;
+    -moz-text-fill-color: $primary;
+    -ms-text-fill-color: $primary;
+    -o-text-fill-color: $primary;
 	}
 }
 
