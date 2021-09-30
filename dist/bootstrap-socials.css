@@ -63,11 +63,11 @@
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 .btn-social.btn-lg, .btn-lg.btn-social-icon, .btn-lg.btn-social-icon-circle, .btn-lg.btn-social-circle {
-  padding-left: 62px;
+  padding-left: 63px;
 }
 .btn-social.btn-lg > :first-child, .btn-lg.btn-social-icon > :first-child, .btn-lg.btn-social-icon-circle > :first-child, .btn-lg.btn-social-circle > :first-child {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 .btn-social.btn-sm, .btn-sm.btn-social-icon, .btn-sm.btn-social-icon-circle, .btn-sm.btn-social-circle {
@@ -83,7 +83,7 @@
   border-radius: 18px;
 }
 .btn-social-circle.btn-lg {
-  border-radius: 27px;
+  border-radius: 27.5px;
 }
 .btn-social-circle.btn-sm {
   border-radius: 16px;
@@ -102,8 +102,8 @@
   width: 100% !important;
 }
 .btn-social-icon.btn-lg, .btn-lg.btn-social-icon-circle {
-  height: 46px;
-  width: 46px;
+  height: 47px;
+  width: 47px;
   line-height: 32px;
   font-size: 1em;
   padding-left: 0;
@@ -122,7 +122,7 @@
   border-radius: 18px;
 }
 .btn-social-icon-circle.btn-lg {
-  border-radius: 27px;
+  border-radius: 27.5px;
 }
 .btn-social-icon-circle.btn-sm {
   border-radius: 16px;
@@ -475,8 +475,8 @@
 }
 
 .btn-lg.btn-adn:before, .btn-lg.btn-outline-adn:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -833,8 +833,8 @@
 }
 
 .btn-lg.btn-bitbucket:before, .btn-lg.btn-outline-bitbucket:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -1191,8 +1191,8 @@
 }
 
 .btn-lg.btn-dropbox:before, .btn-lg.btn-outline-dropbox:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -1549,8 +1549,8 @@
 }
 
 .btn-lg.btn-facebook:before, .btn-lg.btn-outline-facebook:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -1907,8 +1907,8 @@
 }
 
 .btn-lg.btn-flickr:before, .btn-lg.btn-outline-flickr:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -2265,8 +2265,8 @@
 }
 
 .btn-lg.btn-foursquare:before, .btn-lg.btn-outline-foursquare:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -2623,8 +2623,8 @@
 }
 
 .btn-lg.btn-github:before, .btn-lg.btn-outline-github:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -2981,8 +2981,8 @@
 }
 
 .btn-lg.btn-google:before, .btn-lg.btn-outline-google:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -3339,8 +3339,8 @@
 }
 
 .btn-lg.btn-instagram:before, .btn-lg.btn-outline-instagram:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -3697,8 +3697,8 @@
 }
 
 .btn-lg.btn-linkedin:before, .btn-lg.btn-outline-linkedin:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -4055,8 +4055,8 @@
 }
 
 .btn-lg.btn-microsoft:before, .btn-lg.btn-outline-microsoft:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -4413,8 +4413,8 @@
 }
 
 .btn-lg.btn-odnoklassniki:before, .btn-lg.btn-outline-odnoklassniki:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -4771,8 +4771,8 @@
 }
 
 .btn-lg.btn-openid:before, .btn-lg.btn-outline-openid:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -5129,8 +5129,8 @@
 }
 
 .btn-lg.btn-pinterest:before, .btn-lg.btn-outline-pinterest:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -5487,8 +5487,8 @@
 }
 
 .btn-lg.btn-reddit:before, .btn-lg.btn-outline-reddit:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -5845,8 +5845,8 @@
 }
 
 .btn-lg.btn-soundcloud:before, .btn-lg.btn-outline-soundcloud:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -6203,8 +6203,8 @@
 }
 
 .btn-lg.btn-tumblr:before, .btn-lg.btn-outline-tumblr:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -6561,8 +6561,8 @@
 }
 
 .btn-lg.btn-twitter:before, .btn-lg.btn-outline-twitter:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -6919,8 +6919,8 @@
 }
 
 .btn-lg.btn-vimeo:before, .btn-lg.btn-outline-vimeo:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -7277,8 +7277,8 @@
 }
 
 .btn-lg.btn-vk:before, .btn-lg.btn-outline-vk:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -7635,8 +7635,8 @@
 }
 
 .btn-lg.btn-yahoo:before, .btn-lg.btn-outline-yahoo:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -7995,8 +7995,8 @@
 }
 
 .btn-lg.btn-rss:before, .btn-lg.btn-outline-rss:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -8353,8 +8353,8 @@
 }
 
 .btn-lg.btn-gitlab:before, .btn-lg.btn-outline-gitlab:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -8711,8 +8711,8 @@
 }
 
 .btn-lg.btn-amazon:before, .btn-lg.btn-outline-amazon:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -9069,8 +9069,8 @@
 }
 
 .btn-lg.btn-apple:before, .btn-lg.btn-outline-apple:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -9427,8 +9427,8 @@
 }
 
 .btn-lg.btn-evernote:before, .btn-lg.btn-outline-evernote:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -9785,8 +9785,8 @@
 }
 
 .btn-lg.btn-buffer:before, .btn-lg.btn-outline-buffer:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -10143,8 +10143,8 @@
 }
 
 .btn-lg.btn-dailymotion:before, .btn-lg.btn-outline-dailymotion:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -10501,8 +10501,8 @@
 }
 
 .btn-lg.btn-deezer:before, .btn-lg.btn-outline-deezer:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -10859,8 +10859,8 @@
 }
 
 .btn-lg.btn-deviantart:before, .btn-lg.btn-outline-deviantart:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -11217,8 +11217,8 @@
 }
 
 .btn-lg.btn-jira:before, .btn-lg.btn-outline-jira:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -11575,8 +11575,8 @@
 }
 
 .btn-lg.btn-qq:before, .btn-lg.btn-outline-qq:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -11933,8 +11933,8 @@
 }
 
 .btn-lg.btn-salesforce:before, .btn-lg.btn-outline-salesforce:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -12291,8 +12291,8 @@
 }
 
 .btn-lg.btn-snapchat:before, .btn-lg.btn-outline-snapchat:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -12649,8 +12649,8 @@
 }
 
 .btn-lg.btn-slack:before, .btn-lg.btn-outline-slack:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -13007,8 +13007,8 @@
 }
 
 .btn-lg.btn-spotify:before, .btn-lg.btn-outline-spotify:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -13365,8 +13365,8 @@
 }
 
 .btn-lg.btn-stack-exchange:before, .btn-lg.btn-outline-stack-exchange:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -13723,8 +13723,8 @@
 }
 
 .btn-lg.btn-stack-overflow:before, .btn-lg.btn-outline-stack-overflow:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -14081,8 +14081,8 @@
 }
 
 .btn-lg.btn-strava:before, .btn-lg.btn-outline-strava:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -14439,8 +14439,8 @@
 }
 
 .btn-lg.btn-trello:before, .btn-lg.btn-outline-trello:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -14797,8 +14797,8 @@
 }
 
 .btn-lg.btn-twitch:before, .btn-lg.btn-outline-twitch:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -15155,8 +15155,8 @@
 }
 
 .btn-lg.btn-wordpress:before, .btn-lg.btn-outline-wordpress:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -15513,8 +15513,8 @@
 }
 
 .btn-lg.btn-whatsapp:before, .btn-lg.btn-outline-whatsapp:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -15871,8 +15871,8 @@
 }
 
 .btn-lg.btn-xing:before, .btn-lg.btn-outline-xing:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -16229,8 +16229,8 @@
 }
 
 .btn-lg.btn-line:before, .btn-lg.btn-outline-line:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -16587,8 +16587,8 @@
 }
 
 .btn-lg.btn-yandex:before, .btn-lg.btn-outline-yandex:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -16947,8 +16947,8 @@
 }
 
 .btn-lg.btn-youtube:before, .btn-lg.btn-outline-youtube:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -17305,8 +17305,8 @@
 }
 
 .btn-lg.btn-tiktok:before, .btn-lg.btn-outline-tiktok:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -17663,8 +17663,8 @@
 }
 
 .btn-lg.btn-paypal:before, .btn-lg.btn-outline-paypal:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -18021,8 +18021,8 @@
 }
 
 .btn-lg.btn-firefox:before, .btn-lg.btn-outline-firefox:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -18379,8 +18379,8 @@
 }
 
 .btn-lg.btn-telegram-plane:before, .btn-lg.btn-outline-telegram-plane:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -18737,8 +18737,8 @@
 }
 
 .btn-lg.btn-facebook-messenger:before, .btn-lg.btn-outline-facebook-messenger:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -19095,8 +19095,8 @@
 }
 
 .btn-lg.btn-skype:before, .btn-lg.btn-outline-skype:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -19453,8 +19453,8 @@
 }
 
 .btn-lg.btn-opera:before, .btn-lg.btn-outline-opera:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -19811,8 +19811,8 @@
 }
 
 .btn-lg.btn-ie:before, .btn-lg.btn-outline-ie:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -20169,8 +20169,8 @@
 }
 
 .btn-lg.btn-edge:before, .btn-lg.btn-outline-edge:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -20527,8 +20527,8 @@
 }
 
 .btn-lg.btn-chrome:before, .btn-lg.btn-outline-chrome:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -20885,8 +20885,8 @@
 }
 
 .btn-lg.btn-safari:before, .btn-lg.btn-outline-safari:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -21243,8 +21243,8 @@
 }
 
 .btn-lg.btn-suse:before, .btn-lg.btn-outline-suse:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -21601,8 +21601,8 @@
 }
 
 .btn-lg.btn-redhat:before, .btn-lg.btn-outline-redhat:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -21959,8 +21959,8 @@
 }
 
 .btn-lg.btn-ubuntu:before, .btn-lg.btn-outline-ubuntu:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -22317,8 +22317,8 @@
 }
 
 .btn-lg.btn-centos:before, .btn-lg.btn-outline-centos:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -22675,8 +22675,8 @@
 }
 
 .btn-lg.btn-octopus:before, .btn-lg.btn-outline-octopus:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -23033,8 +23033,8 @@
 }
 
 .btn-lg.btn-docker:before, .btn-lg.btn-outline-docker:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -23391,8 +23391,8 @@
 }
 
 .btn-lg.btn-facebook-alt:before, .btn-lg.btn-outline-facebook-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -23749,8 +23749,8 @@
 }
 
 .btn-lg.btn-instagram-alt:before, .btn-lg.btn-outline-instagram-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -24107,8 +24107,8 @@
 }
 
 .btn-lg.btn-pinterest-alt:before, .btn-lg.btn-outline-pinterest-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -24465,8 +24465,8 @@
 }
 
 .btn-lg.btn-paypal-alt:before, .btn-lg.btn-outline-paypal-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -24823,8 +24823,8 @@
 }
 
 .btn-lg.btn-firefox-alt:before, .btn-lg.btn-outline-firefox-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -25181,8 +25181,8 @@
 }
 
 .btn-lg.btn-wordpress-alt:before, .btn-lg.btn-outline-wordpress-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -25539,8 +25539,8 @@
 }
 
 .btn-lg.btn-whatsapp-alt:before, .btn-lg.btn-outline-whatsapp-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -25897,8 +25897,8 @@
 }
 
 .btn-lg.btn-gitlab-alt:before, .btn-lg.btn-outline-gitlab-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -26255,8 +26255,8 @@
 }
 
 .btn-lg.btn-twitter-alt:before, .btn-lg.btn-outline-twitter-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -26613,8 +26613,8 @@
 }
 
 .btn-lg.btn-google-alt:before, .btn-lg.btn-outline-google-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -26973,8 +26973,8 @@
 }
 
 .btn-lg.btn-rss-alt:before, .btn-lg.btn-outline-rss-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -27331,8 +27331,8 @@
 }
 
 .btn-lg.btn-whatsapp-alt:before, .btn-lg.btn-outline-whatsapp-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -27689,8 +27689,8 @@
 }
 
 .btn-lg.btn-facebook-messenger-alt:before, .btn-lg.btn-outline-facebook-messenger-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -28047,8 +28047,8 @@
 }
 
 .btn-lg.btn-skype-alt:before, .btn-lg.btn-outline-skype-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -28405,8 +28405,8 @@
 }
 
 .btn-lg.btn-ubuntu-alt:before, .btn-lg.btn-outline-ubuntu-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
@@ -28763,8 +28763,8 @@
 }
 
 .btn-lg.btn-apple-alt:before, .btn-lg.btn-outline-apple-alt:before {
-  line-height: 46px;
-  width: 46px;
+  line-height: 47px;
+  width: 47px;
   font-size: 1.6em;
 }
 
