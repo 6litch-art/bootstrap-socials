@@ -4,15 +4,14 @@ function fontawesome {
 
 	NAME="$1"
 	STYLE="brands"
-	UNICODE=$(curl -s https://fontawesome.com/icons/${NAME}?style=${STYLE} | \
+	UNICODE=$(curl -L -s https://fontawesome.com/icons/${NAME}?style=${STYLE} | \
                     grep unicode | \
                     sed -e 's/[{}]/''/g' | \
                     awk -v k="text" '{n=split($0,a,","); for (i=1; i<=n; i++) print a[i]}' | \
                     grep unicode | \
                     sed 's/"unicode":"\(.*\)"/\1/g' | head -1)
 
-	#echo "\"$1\", \"$UNICODE\""
-	echo "\\$UNICODE"
+	echo "$1 \$UNICODE"
 }
 
 if [ ! -z "$1" ]; then
