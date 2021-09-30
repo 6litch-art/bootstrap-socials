@@ -112,11 +112,11 @@ krsort($classics);
   <script src="https://assets.glitchr.io/jquery/jquery-3.5.1.min.js"></script>
   <script src="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.js"></script>
   <script src="https://assets.glitchr.io/bootstrap/5.0.0-b1/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="dist/js/index.js" defer></script>
+  <script src="src/js/index.js" defer></script>
 
   <!-- Bootstrap socials -->
-  <link rel="stylesheet" href="dist/boostrap-socials.css">
-  <script src="dist/boostrap-socials.dock.js" defer></script>
+  <link rel="stylesheet" href="dist/bootstrap-socials.css">
+  <script src="dist/bootstrap-socials.dock.js" defer></script>
 
   <!-- List of icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="https://assets.glitchr.io/ico/apple-touch-icon.png">
