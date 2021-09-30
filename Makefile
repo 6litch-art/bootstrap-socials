@@ -1,2 +1,2 @@
 sass:
-	@sass assets/scss/stylesheet-socials.scss assets/css/stylesheet-socials.css
+	@sass src/scss/stylesheet.scss dist/bootstrap-socials.css

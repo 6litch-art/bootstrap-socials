@@ -106,15 +106,17 @@ krsort($classics);
   <link rel="stylesheet" href="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.css">
   <link rel="stylesheet" href="https://assets.glitchr.io/fonts/FontAwesome/5.15.1/css/all.min.css">
 
-  <link rel="stylesheet" href="assets/css/stylesheet-socials.css">
-  <link rel="stylesheet" href="assets/css/stylesheet-gitlab.css">
-  <link rel="stylesheet" href="assets/css/stylesheet.css">
+  <link rel="stylesheet" href="src/css/stylesheet-gitlab.css">
+  <link rel="stylesheet" href="src/css/stylesheet.css">
 
   <script src="https://assets.glitchr.io/jquery/jquery-3.5.1.min.js"></script>
   <script src="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.js"></script>
   <script src="https://assets.glitchr.io/bootstrap/5.0.0-b1/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/index.js" defer></script>
-  <script src="assets/js/dock.js" defer></script>
+  <script src="dist/js/index.js" defer></script>
+
+  <!-- Bootstrap socials -->
+  <link rel="stylesheet" href="dist/boostrap-socials.css">
+  <script src="dist/boostrap-socials.dock.js" defer></script>
 
   <!-- List of icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="https://assets.glitchr.io/ico/apple-touch-icon.png">
