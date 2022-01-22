@@ -1,6 +1,6 @@
 
 $bs-height-base: ($line-height-computed + $padding-base-vertical * 2) !default;
-$bs-height-lg:   (floor($font-size-large * $line-height-base) + ($padding-large-vertical + 1) * 2) !default;
+$bs-height-lg:   (floor($font-size-large * $line-height-base) + ($padding-large-vertical + 1) * 2 - 4) !default;
 $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !default;
 
 .fa, .fab, .fad, .fal, .far, .fas {line-height:unset;}
@@ -30,7 +30,7 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
   &.btn-lg {
     padding-left: ($bs-height-lg + $padding-large-horizontal);
     > :first-child {
-      line-height: $bs-height-lg;
+      line-height: calc($bs-height-lg + 3px);
       width: $bs-height-lg;
       font-size: 1.6em;
     }
@@ -141,9 +141,9 @@ $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !
   .btn-lg {
     &.btn-#{$name}:before,
     &.btn-outline-#{$name}:before {
-      line-height: $bs-height-lg;
+      line-height: calc($bs-height-lg + 3px);
       width: $bs-height-lg;
-      font-size: 1.6em;
+      font-size: 1.5em;
     }
   }
 
