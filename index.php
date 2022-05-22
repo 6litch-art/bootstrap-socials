@@ -142,9 +142,9 @@ krsort($classics);
         <a href="https://getbootstrap.com/">Bootstrap</a> and
         <a href="https://fortawesome.github.io/Font-Awesome/">Font Awesome</a>!
       </p>
-      <a href="https://gitlab.glitchr.io/public-repository/javascript/bootstrap-socials" class="btn btn-outline btn-lg"><i
+      <a href="https://gitlab.glitchr.dev/public-repository/javascript/bootstrap-socials" class="btn btn-outline btn-lg"><i
           style=" vertical-align: middle;" class="fa-fw fab fa-2x fa-gitlab"></i> View on GitLab</a>
-      <a href="https://gitlab.glitchr.io/public-repository/javascript/bootstrap-socials/-/archive/master/bootstrap-socials-master.zip" class="btn btn-outline btn-lg"><i
+      <a href="https://gitlab.glitchr.dev/public-repository/javascript/bootstrap-socials/-/archive/master/bootstrap-socials-master.zip" class="btn btn-outline btn-lg"><i
           style=" vertical-align: middle;" class="fa-fw fas fa-2x fa-download"></i> Download</a>
       <ul class="jumbotron-links">
       </ul>
@@ -235,7 +235,7 @@ krsort($classics);
                   Additionally the script get-fontawesome.sh will help you finding the unicode of the icon you are
                   looking for.
                 </p>
-                <pre>  git clone http://gitlab.glitchr.io/public-repository/javascript/bootstrap-socials.git
+                <pre>  git clone http://gitlab.glitchr.dev/public-repository/javascript/bootstrap-socials.git
   cd bootstrap-socials
   nano assets/scss/stylesheet-socials.css # Make your changes here
   make
@@ -662,13 +662,13 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
   </div>
   <footer>
     <ul class="links">
-      <li><a href="https://gitlab.glitchr.io"><i class="fab fa-gitlab"></i> GitLab</a></li>
+      <li><a href="https://gitlab.glitchr.dev"><i class="fab fa-gitlab"></i> GitLab</a></li>
       <li><a href="https://twitter.com/KZL____"><i class="fab fa-twitter"></i> Twitter</a></li>
       <li><a href="https://www.buymeacoffee.com/kzl0"><i class="fas fa-coffee"></i> Coffee</a></li>
     </ul>
   </footer>
 
-  <div class="gitlab-corner-wrapper"><a href="https://gitlab.glitchr.io" class="gitlab-corner"
+  <div class="gitlab-corner-wrapper"><a href="https://gitlab.glitchr.dev" class="gitlab-corner"
       aria-label="View source on GitLab">
       <svg id="logo_art" data-name="logo art" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 586 559">
         <g id="g44">

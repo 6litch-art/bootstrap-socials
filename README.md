@@ -7,7 +7,7 @@ Social Buttons made in pure CSS based on
 [Bootstrap](http://twbs.github.io/bootstrap/) and
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/)!
 
-[Check the live demo!](http://bootstrap-socials.glitchr.io)
+[Check the live demo!](http://dev.glitchr.io/bootstrap-socials)
 
 Installation
 ------------
@@ -80,7 +80,7 @@ How to get more buttons ?
 
 First, download the source files on GitLab. Add new icons by generating a new stylesheet using SASS and converting stylesheet-socials.scss after adding new entries at the end of the file. Additionally the script get-fontawesome.sh will help you finding the unicode of the icon you are looking for.
 ```
-git clone http://gitlab.glitchr.io/public-repository/javascript/bootstrap-socials.git
+git clone http://gitlab.glitchr.dev/public-repository/javascript/bootstrap-socials.git
 cd bootstrap-socials
 nano assets/scss/stylesheet-socials.css # Make your changes here
 make
