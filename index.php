@@ -18,7 +18,7 @@ $bookmarks = [
     "ubuntu-alt"        => ["fab fa-fw fa-ubuntu"       , "#dd4814",  "Ubuntu"],
     "apple-alt"          => ["fab fa-fw fa-apple"         , "#A2AAAD",  "Apple"],
 ];
-$gradients = array_merge(array(),$bookmarks);
+$gradients = array_merge(array(), $bookmarks);
 krsort($gradients);
 
 
@@ -157,19 +157,21 @@ krsort($classics);
 
   <?php
 
-        array_walk($bookmarks, function(&$social, $code) {
+        array_walk($bookmarks, function (&$social, $code) {
 
-          list($faCode, $color,$name) = $social;
-          $social = "<li class=\"btn btn-social-icon-circle btn-lg btn-color-".$code."\"><i class=\"".$faCode."\"></i></li>";
+            list($faCode, $color,$name) = $social;
+            $social = "<li class=\"btn btn-social-icon-circle btn-lg btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></li>";
         });
 
-  ?>
+        ?>
 
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
         <ul id="dock0" class="d-flex flex-row-reverse align-items-center justify-content-center">
-          <?php foreach($bookmarks as $bookmark) echo $bookmark; ?>
+          <?php foreach ($bookmarks as $bookmark) {
+                echo $bookmark;
+          } ?>
         </ul>
       </div>
     </div>
@@ -254,81 +256,76 @@ krsort($classics);
 
     <?php
 
-$block1 = array_merge(array(), $gradients);
-array_walk($block1, function(&$social, $code) {
+    $block1 = array_merge(array(), $gradients);
+    array_walk($block1, function (&$social, $code) {
 
-  list($faCode, $color,$name) = $social;
+        list($faCode, $color,$name) = $social;
 
-	$social = "<li class=\"btn btn-block btn-social btn-color-".$code."\">".
-        	        "<i class=\"".$faCode."\"></i> Sign in with ".$name." !".
+        $social = "<li class=\"btn btn-block btn-social btn-color-" . $code . "\">" .
+                    "<i class=\"" . $faCode . "\"></i> Sign in with " . $name . " !" .
                 "</li>";
+    });
 
-});
+    $block2 = array_merge(array(), $gradients);
+    array_walk($block2, function (&$social, $code) {
 
-$block2 = array_merge(array(), $gradients);
-array_walk($block2, function(&$social, $code) {
+        list($faCode, $color,$name) = $social;
+        $social = "<li class=\"btn btn-social-icon btn-lg btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></li>";
+    });
 
-  list($faCode, $color,$name) = $social;
-  $social = "<li class=\"btn btn-social-icon btn-lg btn-color-".$code."\"><i class=\"".$faCode."\"></i></li>";
-});
+    $block3 = array_merge(array(), $gradients);
+    array_walk($block3, function (&$social, $code) {
 
-$block3 = array_merge(array(), $gradients);
-array_walk($block3, function(&$social, $code) {
+        list($faCode, $color,$name) = $social;
 
-  list($faCode, $color,$name) = $social;
+        $social = "<li data-code=\"" . $code . "\" data-icon=\"" . $faCode . "\" data-name=\"" . $name . "\"><code>btn-" . $code . "</code> <i class=\"social-hex\">" . $color . "</i></li>";
+    });
 
-  $social = "<li data-code=\"".$code."\" data-icon=\"".$faCode."\" data-name=\"".$name."\"><code>btn-".$code."</code> <i class=\"social-hex\">".$color."</i></li>";
+    $block4 = array_merge(array(), $gradients);
+    array_walk($block4, function (&$social, $code) {
 
-});
+        list($faCode, $color,$name) = $social;
 
-$block4 = array_merge(array(), $gradients);
-array_walk($block4, function(&$social, $code) {
+        $social =
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-color-" . $code . "\"        ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-color-" . $code . "\"               ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-outline-color-" . $code . "\"       ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-color-" . $code . "\"        ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>";
+    });
 
-  list($faCode, $color,$name) = $social;
+    $block5 = array_merge(array(), $gradients);
+    array_walk($block5, function (&$social, $code) {
 
-  $social =
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-color-".$code."\"               ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-outline-color-".$code."\"       ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-    "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>";
+        list($faCode, $color,$name) = $social;
 
-});
+        $social =
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>";
+    });
 
-$block5 = array_merge(array(), $gradients);
-array_walk($block5, function(&$social, $code) {
+    $block6 = array_merge(array(), $gradients);
+    array_walk($block6, function (&$social, $code) {
 
-  list($faCode, $color,$name) = $social;
+        list($faCode, $color,$name) = $social;
 
-  $social =
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i></button>";
+        $social =
+        "<button class=\"btn btn-social-icon btn-lg btn-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-lg btn-outline-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon        btn-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon        btn-outline-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-sm btn-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-sm btn-outline-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>";
+    });
 
-});
+    $random_index = array_keys($gradients)[random_int(0, count($gradients) - 1)];
 
-$block6 = array_merge(array(), $gradients);
-array_walk($block6, function(&$social, $code) {
-
-  list($faCode, $color,$name) = $social;
-
-  $social =
-        "<button class=\"btn btn-social-icon btn-lg btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-lg btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon        btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon        btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-sm btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-sm btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>";
-
-});
-
-$random_index = array_keys($gradients )[random_int(0,count($gradients)-1)];
-
-?>
+    ?>
 
     <div class="container" id="gradient">
       <div class="row">
@@ -345,7 +342,9 @@ $random_index = array_keys($gradients )[random_int(0,count($gradients)-1)];
         <div class="col-sm-4 social-buttons">
           <h3 class="text-center">All buttons</h3>
           <br />
-          <ul id="dock1" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
+          <ul id="dock1" class=" d-flex flex-column-reverse"><?php foreach ($block1 as $block) {
+                echo $block;
+                                                             } ?></ul>
         </div>
 
         <div class="col-sm-4">
@@ -353,7 +352,9 @@ $random_index = array_keys($gradients )[random_int(0,count($gradients)-1)];
           <br />
 
           <ul class="social-class1 d-flex flex-column-reverse list-unstyled">
-            <?php foreach($block3 as $block) echo $block; ?>
+            <?php foreach ($block3 as $block) {
+                echo $block;
+            } ?>
           </ul>
         </div>
 
@@ -390,81 +391,76 @@ $random_index = array_keys($gradients )[random_int(0,count($gradients)-1)];
     <?php
 
 
-$block1 = array_merge(array(), $classics);
-array_walk($block1, function(&$social, $code) {
+    $block1 = array_merge(array(), $classics);
+    array_walk($block1, function (&$social, $code) {
 
-  list($faCode, $color,$name) = $social;
+        list($faCode, $color,$name) = $social;
 
-	$social = "<li class=\"btn btn-block btn-social-circle btn-color-".$code."\">".
-        	        "<i class=\"".$faCode."\"></i> Sign in with ".$name." !".
+        $social = "<li class=\"btn btn-block btn-social-circle btn-color-" . $code . "\">" .
+                    "<i class=\"" . $faCode . "\"></i> Sign in with " . $name . " !" .
                 "</li>";
+    });
 
-});
+    $block2 = array_merge(array(), $classics);
+    array_walk($block2, function (&$social, $code) {
 
-$block2 = array_merge(array(), $classics);
-array_walk($block2, function(&$social, $code) {
+        list($faCode, $color,$name) = $social;
+        $social = "<li class=\"btn btn-social-icon-circle btn-lg btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></li>";
+    });
 
-  list($faCode, $color,$name) = $social;
-  $social = "<li class=\"btn btn-social-icon-circle btn-lg btn-color-".$code."\"><i class=\"".$faCode."\"></i></li>";
-});
+    $block3 = array_merge(array(), $classics);
+    array_walk($block3, function (&$social, $code) {
 
-$block3 = array_merge(array(), $classics);
-array_walk($block3, function(&$social, $code) {
+        list($faCode, $color,$name) = $social;
 
-  list($faCode, $color,$name) = $social;
+        $social = "<li data-code=\"" . $code . "\" data-icon=\"" . $faCode . "\" data-name=\"" . $name . "\"><code>btn-" . $code . "</code> <i class=\"social-hex\">" . $color . "</i></li>";
+    });
 
-  $social = "<li data-code=\"".$code."\" data-icon=\"".$faCode."\" data-name=\"".$name."\"><code>btn-".$code."</code> <i class=\"social-hex\">".$color."</i></li>";
+    $block4 = array_merge(array(), $classics);
+    array_walk($block4, function (&$social, $code) {
 
-});
+        list($faCode, $color,$name) = $social;
 
-$block4 = array_merge(array(), $classics);
-array_walk($block4, function(&$social, $code) {
+        $social =
+        "<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-lg btn-color-" . $code . "\"        ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-lg btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-color-" . $code . "\"               ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-outline-color-" . $code . "\"       ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-sm btn-color-" . $code . "\"        ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-sm btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>";
+    });
 
-  list($faCode, $color,$name) = $social;
+    $block5 = array_merge(array(), $classics);
+    array_walk($block5, function (&$social, $code) {
 
-  $social =
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-lg btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-color-".$code."\"               ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-outline-color-".$code."\"       ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-sm btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-    "<button class=\"btn btn-block btn-social-circle btn-changeHTML btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>";
+        list($faCode, $color,$name) = $social;
 
-});
+        $social =
+        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon btn-lg btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon btn-lg btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon        btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon        btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon btn-sm btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon btn-sm btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>";
+    });
 
-$block5 = array_merge(array(), $classics);
-array_walk($block5, function(&$social, $code) {
+    $block6 = array_merge(array(), $classics);
+    array_walk($block6, function (&$social, $code) {
 
-  list($faCode, $color,$name) = $social;
+        list($faCode, $color,$name) = $social;
 
-  $social =
-        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon btn-lg btn-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon        btn-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon        btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon btn-sm btn-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle btn-changeHTML-icon btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i></button>";
+        $social =
+        "<button class=\"btn btn-social-icon-circle btn-lg btn-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle btn-lg btn-outline-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle        btn-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle        btn-outline-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle btn-sm btn-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon-circle btn-sm btn-outline-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>";
+    });
 
-});
+    $random_index = array_keys($classics)[random_int(0, count($classics) - 1)];
 
-$block6 = array_merge(array(), $classics);
-array_walk($block6, function(&$social, $code) {
-
-  list($faCode, $color,$name) = $social;
-
-  $social =
-        "<button class=\"btn btn-social-icon-circle btn-lg btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle btn-lg btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle        btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle        btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle btn-sm btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon-circle btn-sm btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>";
-
-});
-
-$random_index = array_keys($classics)[random_int(0,count($classics)-1)];
-
-?>
+    ?>
 
 
     <div class="container" id="circle">
@@ -482,7 +478,9 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
         <div class="col-sm-4 social-buttons">
           <h3 class="text-center">All buttons</h3>
           <br />
-          <ul id="dock2" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
+          <ul id="dock2" class=" d-flex flex-column-reverse"><?php foreach ($block1 as $block) {
+                echo $block;
+                                                             } ?></ul>
         </div>
 
         <div class="col-sm-4">
@@ -490,7 +488,9 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
           <br />
 
           <ul class="social-class2 d-flex flex-column-reverse list-unstyled">
-            <?php foreach($block3 as $block) echo $block; ?>
+            <?php foreach ($block3 as $block) {
+                echo $block;
+            } ?>
           </ul>
         </div>
 
@@ -526,81 +526,76 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
     <?php
 
 
-$block1 = array_merge(array(), $classics);
-array_walk($block1, function(&$social, $code) {
+    $block1 = array_merge(array(), $classics);
+    array_walk($block1, function (&$social, $code) {
 
-  list($faCode, $color,$name) = $social;
+        list($faCode, $color,$name) = $social;
 
-	$social = "<li class=\"btn btn-block btn-social btn-color-".$code."\">".
-        	        "<i class=\"".$faCode."\"></i> Sign in with ".$name." !".
+        $social = "<li class=\"btn btn-block btn-social btn-color-" . $code . "\">" .
+                    "<i class=\"" . $faCode . "\"></i> Sign in with " . $name . " !" .
                 "</li>";
+    });
 
-});
+    $block2 = array_merge(array(), $classics);
+    array_walk($block2, function (&$social, $code) {
 
-$block2 = array_merge(array(), $classics);
-array_walk($block2, function(&$social, $code) {
+        list($faCode, $color,$name) = $social;
+        $social = "<li class=\"btn btn-social-icon btn-lg btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></li>";
+    });
 
-  list($faCode, $color,$name) = $social;
-  $social = "<li class=\"btn btn-social-icon btn-lg btn-color-".$code."\"><i class=\"".$faCode."\"></i></li>";
-});
+    $block3 = array_merge(array(), $classics);
+    array_walk($block3, function (&$social, $code) {
 
-$block3 = array_merge(array(), $classics);
-array_walk($block3, function(&$social, $code) {
+        list($faCode, $color,$name) = $social;
 
-  list($faCode, $color,$name) = $social;
+        $social = "<li data-code=\"" . $code . "\" data-icon=\"" . $faCode . "\" data-name=\"" . $name . "\"><code>btn-" . $code . "</code> <i class=\"social-hex\">" . $color . "</i></li>";
+    });
 
-  $social = "<li data-code=\"".$code."\" data-icon=\"".$faCode."\" data-name=\"".$name."\"><code>btn-".$code."</code> <i class=\"social-hex\">".$color."</i></li>";
+    $block4 = array_merge(array(), $classics);
+    array_walk($block4, function (&$social, $code) {
 
-});
+        list($faCode, $color,$name) = $social;
 
-$block4 = array_merge(array(), $classics);
-array_walk($block4, function(&$social, $code) {
+        $social =
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-color-" . $code . "\"        ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-color-" . $code . "\"               ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-outline-color-" . $code . "\"       ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-color-" . $code . "\"        ><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>" .
+        "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i> Sign in with " . $name . "</button><br/>";
+    });
 
-  list($faCode, $color,$name) = $social;
+    $block5 = array_merge(array(), $classics);
+    array_walk($block5, function (&$social, $code) {
 
-  $social =
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-color-".$code."\"               ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-outline-color-".$code."\"       ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-		"<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-color-".$code."\"        ><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>".
-    "<button class=\"btn btn-block btn-social btn-changeHTML btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i> Sign in with ".$name."</button><br/>";
+        list($faCode, $color,$name) = $social;
 
-});
+        $social =
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-outline-color-" . $code . "\"><i class=\"" . $faCode . "\"></i></button>";
+    });
 
-$block5 = array_merge(array(), $classics);
-array_walk($block5, function(&$social, $code) {
+    $block6 = array_merge(array(), $classics);
+    array_walk($block6, function (&$social, $code) {
 
-  list($faCode, $color,$name) = $social;
+        list($faCode, $color,$name) = $social;
 
-  $social =
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-lg btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon        btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-color-".$code."\"><i class=\"".$faCode."\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-changeHTML-icon btn-sm btn-outline-color-".$code."\"><i class=\"".$faCode."\"></i></button>";
+        $social =
+        "<button class=\"btn btn-social-icon btn-lg btn-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-lg btn-outline-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon        btn-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon        btn-outline-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-sm btn-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>" .
+        "<button class=\"btn btn-social-icon btn-sm btn-outline-color-" . $code . "\"><i class=\"fas fa-smile\"></i></button>";
+    });
 
-});
+    $random_index = array_keys($classics)[random_int(0, count($classics) - 1)];
 
-$block6 = array_merge(array(), $classics);
-array_walk($block6, function(&$social, $code) {
-
-  list($faCode, $color,$name) = $social;
-
-  $social =
-        "<button class=\"btn btn-social-icon btn-lg btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-lg btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon        btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon        btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-sm btn-color-".$code."\"><i class=\"fas fa-smile\"></i></button>".
-        "<button class=\"btn btn-social-icon btn-sm btn-outline-color-".$code."\"><i class=\"fas fa-smile\"></i></button>";
-
-});
-
-$random_index = array_keys($classics)[random_int(0,count($classics)-1)];
-
-?>
+    ?>
 
 
     <div class="container" id="classic">
@@ -618,7 +613,9 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
         <div class="col-sm-4 social-buttons">
           <h3 class="text-center">All buttons</h3>
           <br />
-          <ul id="dock3" class=" d-flex flex-column-reverse"><?php foreach($block1 as $block) echo $block; ?></ul>
+          <ul id="dock3" class=" d-flex flex-column-reverse"><?php foreach ($block1 as $block) {
+                echo $block;
+                                                             } ?></ul>
         </div>
 
         <div class="col-sm-4">
@@ -626,7 +623,9 @@ $random_index = array_keys($classics)[random_int(0,count($classics)-1)];
           <br />
 
           <ul class="social-class3 d-flex flex-column-reverse list-unstyled">
-            <?php foreach($block3 as $block) echo $block; ?>
+            <?php foreach ($block3 as $block) {
+                echo $block;
+            } ?>
           </ul>
         </div>
 
